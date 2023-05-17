@@ -1,5 +1,4 @@
 .Benefits {
-    position: absolute;
     width: 1440px;
     height: 770px;
     margin: 0;
@@ -7,12 +6,12 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
-    left: 100px;
 }
 
 .Benefits h1 {
     font-family: britanica;
     font-size: 50px;
+    padding-left: 90px;
 }
 
 .Benefits_List {
@@ -20,6 +19,8 @@
     flex-direction: row;
     gap: 20px;
     align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
 .Benefits_1 {

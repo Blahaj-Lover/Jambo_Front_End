@@ -42,7 +42,6 @@ const About = () => {
                                     <text> Lorem ipsum</text>
                                 </div>
                         </div>
-                        
                     </div>
                 </div>
 

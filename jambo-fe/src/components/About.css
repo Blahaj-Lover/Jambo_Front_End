@@ -6,11 +6,10 @@
 }
 
 .contents {
-    position: absolute;
     display: flex;
     flex-direction: row;
     gap: 100px;
-    left: 100px;
+    justify-content: center;
     align-items: center;
 }
 

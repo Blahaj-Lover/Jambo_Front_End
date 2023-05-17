@@ -1,0 +1,133 @@
+.hero {
+    width: 1440px;
+    height: 900px;
+    margin: 0;
+    padding: 0;
+}
+
+.tagline {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 70px;
+    left: 100px;
+}
+
+.tagline_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tagline_text h1 {
+    font-family: britanica;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.tagline_text text {
+    position: absolute;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    top: 170px;
+}
+
+.tagline_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.tagline_button_1 {
+    background-color: #F0F0F0;
+    width: 262px;
+    height: 48px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px black;
+    font-size: 20px;
+}
+
+.tagline_button_2 {
+    background-color: #CDEE25;
+    width: 176px;
+    height: 48px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px black;
+    font-size: 20px;
+}
+
+.features {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 186px;
+    top: 400px;
+}
+
+.feature_1 {
+    position: absolute;
+    background-color: #FFD7C3;
+    width: 523px;
+    height: 307px;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    box-shadow: 10px 10px 0 #000000;
+    left: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.feature_1 h1 {
+    font-size: 30px;
+    font-family: britanica;
+    padding-top: 60px;
+}
+
+.feature_1 text {
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans';
+    justify-content: center;
+    text-align: center;
+}
+
+.feature_2 {
+    position: absolute;
+    background-color: #FFF402;
+    width: 523px;
+    height: 307px;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    box-shadow: 10px 10px 0 #000000;
+    left: 800px;
+    justify-content: center;
+    text-align: center;
+}
+
+.feature_2 h1 {
+    font-size: 30px;
+    font-family: britanica;
+    padding-top: 60px;
+}
+
+.feature_2 text {
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans';
+    justify-content: center;
+    text-align: center;
+}
+
+.features img {
+    position: absolute;
+    left: 800px;
+    bottom: -50px;
+}

@@ -1,0 +1,104 @@
+.Benefits {
+    position: absolute;
+    width: 1440px;
+    height: 770px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    left: 100px;
+}
+
+.Benefits h1 {
+    font-family: britanica;
+    font-size: 50px;
+}
+
+.Benefits_List {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.Benefits_1 {
+    width: 295px;
+    height: 400px;
+    background-color: #FFD7C3;
+    border: 3px solid #000000;
+    box-shadow: 10px 10px 0px #000000;
+    border-radius: 10px;
+
+}
+
+.Benefits_1 img {
+    padding: 30px;
+}
+
+.Benefits_1 h1 {
+    font-family: britanica;
+    font-size: 35px;
+    padding-left: 30px;
+    padding-top: 150px;
+}
+
+.Benefits_2 {
+    width: 295px;
+    height: 400px;
+    background-color: #D0EA57;
+    border: 3px solid #000000;
+    box-shadow: 10px 10px 0px #000000;
+    border-radius: 10px;
+}
+
+.Benefits_2 img {
+    padding: 30px;
+}
+
+.Benefits_2 h1 {
+    font-family: britanica;
+    font-size: 35px;
+    padding-left: 30px;
+    padding-top: 150px;
+}
+
+.Benefits_3 {
+    width: 295px;
+    height: 400px;
+    background-color: #FDD400;
+    border: 3px solid #000000;
+    box-shadow: 10px 10px 0px #000000;
+    border-radius: 10px;
+}
+
+.Benefits_3 img {
+    padding: 30px;
+}
+
+.Benefits_3 h1 {
+    font-family: britanica;
+    font-size: 35px;
+    padding-left: 30px;
+    padding-top: 150px;
+}
+
+.Benefits_4 {
+    width: 295px;
+    height: 400px;
+    background-color: #32CBFC;
+    border: 3px solid #000000;
+    box-shadow: 10px 10px 0px #000000;
+    border-radius: 10px;
+}
+
+.Benefits_4 img {
+    padding: 30px;
+}
+
+.Benefits_4 h1 {
+    font-family: britanica;
+    font-size: 35px;
+    padding-left: 30px;
+    padding-top: 150px;
+}

@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.tagline img {
+    margin-bottom: -48px;
+}
+
 .tagline_content {
     display: flex;
     flex-direction: column;
@@ -55,8 +59,11 @@
     width: 262px;
     height: 48px;
     border-radius: 10px;
-    box-shadow: 5px 5px 0px black;
     font-size: 20px;
+}
+
+.tagline_button_1:hover {
+    box-shadow: 5px 5px 0px black;
 }
 
 .tagline_button_2 {
@@ -64,8 +71,11 @@
     width: 176px;
     height: 48px;
     border-radius: 10px;
-    box-shadow: 5px 5px 0px black;
     font-size: 20px;
+}
+
+.tagline_button_2:hover {
+    box-shadow: 5px 5px 0px black;
 }
 
 .tagline img {
@@ -128,8 +138,4 @@
     font-family: 'Plus Jakarta Sans';
     justify-content: center;
     text-align: center;
-}
-
-.features img {
-    bottom: -50px;
 }

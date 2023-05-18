@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import people from "../assets/People Illustration.png"
+import people from "../assets/People Illustration.png";
 
 const Hero = () => {
     return (
@@ -19,7 +19,9 @@ const Hero = () => {
                         <button className="tagline_button_2"> Get Started </button>
                     </div>
                 </div>
+
                 <img src={people} alt="people" />
+                
             </div>
 
             <div className="features">

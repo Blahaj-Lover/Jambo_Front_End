@@ -28,9 +28,11 @@
     height: 400px;
     background-color: #FFD7C3;
     border: 3px solid #000000;
-    box-shadow: 10px 10px 0px #000000;
     border-radius: 10px;
+}
 
+.Benefits_1:hover {
+    box-shadow: 5px 5px 0px black;
 }
 
 .Benefits_1 img {
@@ -49,8 +51,11 @@
     height: 400px;
     background-color: #D0EA57;
     border: 3px solid #000000;
-    box-shadow: 10px 10px 0px #000000;
     border-radius: 10px;
+}
+
+.Benefits_2:hover {
+    box-shadow: 5px 5px 0px black;
 }
 
 .Benefits_2 img {
@@ -69,8 +74,11 @@
     height: 400px;
     background-color: #FDD400;
     border: 3px solid #000000;
-    box-shadow: 10px 10px 0px #000000;
     border-radius: 10px;
+}
+
+.Benefits_3:hover {
+    box-shadow: 5px 5px 0px black;
 }
 
 .Benefits_3 img {
@@ -89,8 +97,11 @@
     height: 400px;
     background-color: #32CBFC;
     border: 3px solid #000000;
-    box-shadow: 10px 10px 0px #000000;
     border-radius: 10px;
+}
+
+.Benefits_4:hover {
+    box-shadow: 5px 5px 0px black;
 }
 
 .Benefits_4 img {

@@ -12,14 +12,13 @@ const Community = () => {
                         <div className="join_desc">
                             <text> Meet other indie game developer also know latest update, <br/> announcements, and more </text>
                         </div>
-                    </div>
 
-                    <div className="join_button">
                         <button> Join Our Discord </button>
                     </div>
-                </div>
 
-                <img src={persons} alt="persons" />
+                    <img src={persons} alt="persons" />
+                    
+                </div>
             </div>
         </div>
     );

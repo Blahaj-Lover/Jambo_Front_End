@@ -22,7 +22,7 @@ const FAQ = () => {
 
                     <div className="FAQ_2">
                         <h1> 02 </h1>
-                        <h1> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ? </h1>
+                        <h1> Lorem ipsum dolor sit amet, consectetur?</h1>
                         <button> + </button>
                     </div>
 
@@ -34,7 +34,7 @@ const FAQ = () => {
 
                     <div className="FAQ_4">
                         <h1> 04 </h1>
-                        <h1> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ? </h1>
+                        <h1> Lorem ipsum dolor sit amet, consectetur? </h1>
                         <button> + </button>
                     </div>
                 </div>

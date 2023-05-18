@@ -3,6 +3,7 @@
     height: 900px;
     margin: 0;
     padding: 0;
+    padding-top: 100px;
 }
 
 .tagline {
@@ -64,6 +65,7 @@
 
 .tagline_button_1:hover {
     box-shadow: 5px 5px 0px black;
+    transition: all 0.3s;
 }
 
 .tagline_button_2 {
@@ -76,6 +78,7 @@
 
 .tagline_button_2:hover {
     box-shadow: 5px 5px 0px black;
+    transition: all 0.3s;
 }
 
 .tagline img {

@@ -33,6 +33,7 @@
 
 .Benefits_1:hover {
     box-shadow: 5px 5px 0px black;
+    transition: all 0.3s;
 }
 
 .Benefits_1 img {
@@ -56,6 +57,7 @@
 
 .Benefits_2:hover {
     box-shadow: 5px 5px 0px black;
+    transition: all 0.3s;
 }
 
 .Benefits_2 img {
@@ -79,6 +81,7 @@
 
 .Benefits_3:hover {
     box-shadow: 5px 5px 0px black;
+    transition: all 0.3s;
 }
 
 .Benefits_3 img {
@@ -102,6 +105,7 @@
 
 .Benefits_4:hover {
     box-shadow: 5px 5px 0px black;
+    transition: all 0.3s;
 }
 
 .Benefits_4 img {

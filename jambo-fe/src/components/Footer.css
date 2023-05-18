@@ -1,8 +1,7 @@
 .footer {
     background-color: #ffffff;
     width: 1440px;
-    /* height: auto; */
-    padding: 38px;
+    padding-bottom: 38px;
 }
 
 .footer h1 {
@@ -16,24 +15,21 @@
 }
 
 .footer_content {
-    width: 1375;
-    height: 340;
+    width: 1375px;
+    height: 300px;
     background-color: #FFFFF3;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
-    /* padding-top: 50px; */
-    /* gap: 100px; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     margin: 0px 70px 0px 70px;
     align-items: center;
     border-radius: 10px;
     border: 3px solid #000000;
+    box-shadow: 10px 10px 0 #000000;
 }
 
 .footer_row {
-    margin: auto;
-    /* width: 50%; */
     padding: 50px;
     display: flex;
     flex-direction: row;
@@ -54,11 +50,46 @@
     background-color: #FFD7C3;
 }
 
-.sosmed_link {
-    margin: auto;
-    padding: 10px;
+.foot_sosmed {
     display: flex;
-    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot_sosmed h2 {
+    margin: 0;
+}
+
+.sosmed_link {
+    display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 30px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_1 a:hover {
+    color: #FDD400;
+    text-shadow: 1px 1px #000000;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.menu_2 a:hover {
+    color: #32CBFC;
+    text-shadow: 1px 1px #000000;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.menu_3 a:hover {
+    color: #FFF402;
+    text-shadow: 1px 1px #000000;
+    font-weight: bold;
+    transition: all 0.3s;
 }

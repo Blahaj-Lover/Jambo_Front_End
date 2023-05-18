@@ -1,5 +1,8 @@
 import React from "react";
 import "./Footer.css"
+import picture_1 from "../assets/Instagram.png";
+import picture_2 from "../assets/Twitter.png";
+import picture_3 from "../assets/Youtube.png";
 
 const Footer = () => {
     return (
@@ -11,26 +14,25 @@ const Footer = () => {
                         <h1> LOGO </h1>
                     </div>
                     {/* column 2 */}
-                    <div className="foot_navbar">
-                        <h1> Home </h1>
-                        <h1> Explore </h1>
-                        <h1> About </h1>
+                    <div className="middle">
+                        <div className="foot_navbar">
+                            <li className="menu_1"> <a href=""> Home </a></li>
+                            <li className="menu_2"> <a href=""> Explore </a></li>
+                            <li className="menu_3"> <a href=""> About </a></li>
+                        </div>
+
+                        <text> @Copyright Jambo Company. All rights reserved. </text>
                     </div>
+        
                     {/* column 3 */}
                     <div className="foot_sosmed">
                         <h2> Follow Us </h2>
                         <ul className="sosmed_link">
-                            <li> ins </li>
-                            <li> twt </li>
-                            <li> yt </li>
+                            <li> <a href=""><img src={picture_1} alt="Instagram"></img></a></li>
+                            <li> <a href=""><img src={picture_2} alt="Twitter"></img></a></li>
+                            <li> <a href=""><img src={picture_3} alt="Youtube"></img></a></li>
                         </ul>
                     </div>
-                </div>
-            
-                <div>
-                    <p className="sm">
-                        @Copyright Jambo Company. All rights reserved.
-                    </p>
                 </div>
             </div>
         </div>

@@ -1,8 +1,5 @@
 import React from "react";
 import "./Footer.css"
-import picture_1 from "../assets/Instagram.png";
-import picture_2 from "../assets/Twitter.png";
-import picture_3 from "../assets/Youtube.png";
 
 const Footer = () => {
     return (
@@ -25,13 +22,24 @@ const Footer = () => {
                     </div>
         
                     {/* column 3 */}
-                    <div className="foot_sosmed">
+                    <div className="right">
                         <h2> Follow Us </h2>
-                        <ul className="sosmed_link">
-                            <li> <a href=""><img src={picture_1} alt="Instagram"></img></a></li>
-                            <li> <a href=""><img src={picture_2} alt="Twitter"></img></a></li>
-                            <li> <a href=""><img src={picture_3} alt="Youtube"></img></a></li>
-                        </ul>
+                        <div className="wrapper">
+                            <div className="icon facebook">
+                                <span><i class="fa-brands fa-instagram"></i></span>
+                                <div className="tooltip"> Instagram </div>
+                            </div>
+
+                            <div className="icon twitter">
+                                <span><i class="fa-brands fa-twitter"></i></span>
+                                <div className="tooltip"> Twitter </div>
+                            </div>
+
+                            <div className="icon youtube">
+                                <span><i class="fa-brands fa-youtube"></i></span>
+                                <div className="tooltip"> Youtube </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

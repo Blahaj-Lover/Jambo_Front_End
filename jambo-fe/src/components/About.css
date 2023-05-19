@@ -39,6 +39,10 @@
     font-size: 20px;
 }
 
+.details i {
+    padding-left: 5px;
+}
+
 .details button:hover {
     box-shadow: 5px 5px 0px black;
     background-color: #FDD400;

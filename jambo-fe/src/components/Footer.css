@@ -2,11 +2,14 @@
     background-color: #ffffff;
     width: 1440px;
     padding-bottom: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer h1 {
     font-family: britanica;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .footer h2 {
@@ -33,7 +36,7 @@
     padding: 50px;
     display: flex;
     flex-direction: row;
-    gap: 250px;
+    gap: 200px;
     align-items: center;
 }
 
@@ -48,23 +51,6 @@
     border-radius: 10px;
     border: 3px solid #000000;
     background-color: #FFD7C3;
-}
-
-.foot_sosmed {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.foot_sosmed h2 {
-    margin: 0;
-}
-
-.sosmed_link {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
 }
 
 .middle {
@@ -92,4 +78,100 @@
     text-shadow: 1px 1px #000000;
     font-weight: bold;
     transition: all 0.3s;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right h2 {
+    margin: 10px;
+}
+
+.wrapper {
+    display: inline-flex;
+}
+
+.wrapper .icon {
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.wrapper .icon span {
+    border: 2px solid #000000;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.wrapper .icon span i {
+    font-size: 23px;
+    line-height: 40px;
+}
+
+.wrapper .icon:hover span i {
+    color: white;
+}
+
+.wrapper .icon .tooltip {
+    background-color: white;
+    font-size: 15px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.wrapper .icon:hover .tooltip {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.wrapper .icon .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    bottom: 25px;
+    left: 40%;
+    transform: rotate(45deg);
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+}
+
+.wrapper .facebook:hover span,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+    background-color: #e1306c;
+    border: none;
+}
+
+.wrapper .twitter:hover span,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+    background-color: #1D9BF0;
+    border: none;
+}
+
+.wrapper .youtube:hover span,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+    background-color: #FF0000;
+    border: none;
 }

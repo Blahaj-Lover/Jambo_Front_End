@@ -14,7 +14,7 @@ const About = () => {
                         <br/> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br/> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br/> commodo consequat.
                     </text>
 
-                    <button> Learn More </button>
+                    <button> Learn More <i class="fa-solid fa-magnifying-glass"></i></button>
 
                     <div className="others">
 

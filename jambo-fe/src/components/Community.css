@@ -34,6 +34,10 @@
     gap: 10px;
 }
 
+.join_text i {
+    padding-right: 5px;
+}
+
 .join_text h1 {
     font-family: britanica;
     font-size: 50px;

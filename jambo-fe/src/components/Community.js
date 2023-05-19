@@ -13,7 +13,7 @@ const Community = () => {
                             <text> Meet other indie game developer also know latest update, <br/> announcements, and more </text>
                         </div>
 
-                        <button> Join Our Discord </button>
+                        <button> <i class="fa-brands fa-discord"></i> Join Our Discord </button>
                     </div>
 
                     <img src={persons} alt="persons" />

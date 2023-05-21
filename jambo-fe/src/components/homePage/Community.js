@@ -1,6 +1,6 @@
 import React from "react";
 import "./Community.css"
-import persons from "../assets/peeps.png"
+import persons from "./assets/peeps.png"
 
 const Community = () => {
     return(

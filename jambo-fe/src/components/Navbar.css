@@ -88,25 +88,20 @@ li > a.item_3:hover::after {
     justify-content: space-around;
 }
 
-/* .toggler div {
-    background-color: black;
-    width: 2.5rem;
-    height: 0.2rem;
-    margin: 0.4rem;
-}
-
-.toggler {
-    cursor: pointer;
-    display: none;
-} */
-
 .button {
     display: flex;
     flex-direction: row;
     gap: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.sign_in {
+.link_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     font-family: 'Plus Jakarta Sans';
     font-size: 18px;
     border-radius: 10px;
@@ -116,15 +111,21 @@ li > a.item_3:hover::after {
     height: 42px;
 }
 
-.sign_in:hover {
-    background-color: #D0EA57;
+.link_1:hover {
+    text-align: center;
+    font-weight: bold;
     color: black;
+    background-color: #D0EA57;
     border: 3px solid #000000;
     box-shadow: 5px 5px 0 #000000;
     transition: all 0.3s;
 }
 
-.sign_up {
+.link_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     font-family: 'Plus Jakarta Sans';
     font-size: 18px;
     border-radius: 10px;
@@ -134,26 +135,10 @@ li > a.item_3:hover::after {
     height: 42px;
 }
 
-.sign_up:hover {
+.link_2:hover {
     background-color: #D0EA57;
     color: black;
     border: 3px solid #000000;
     box-shadow: 5px 5px 0 #000000;
     transition: all 0.3s;
 }
-
-/* @media screen and (max-width: 750px) {
-    .toggler {
-        display: block;
-    }
-
-    .menu {
-        position: fixed;
-        flex-direction: column;
-        top: 7vh;
-        right: 0;
-        width: 50%;
-        height: 93vh;
-        background-color: #FDD400;
-    }
-} */

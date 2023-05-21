@@ -1,9 +1,9 @@
 import React from "react";
 import "./Benefits.css"
-import picture_1 from "../assets/Built For Developer.png";
-import picture_2 from "../assets/100% Free To Use.png";
-import picture_3 from "../assets/Make Connection.png";
-import picture_4 from "../assets/Learning By Doing.png";
+import picture_1 from "./assets/Built For Developer.png";
+import picture_2 from "./assets/100% Free To Use.png";
+import picture_3 from "./assets/Make Connection.png";
+import picture_4 from "./assets/Learning By Doing.png";
 
 const Benefits = () => {
     return (

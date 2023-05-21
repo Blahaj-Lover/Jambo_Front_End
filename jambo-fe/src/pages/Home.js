@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import Benefits from "../components/Benefits";
-import FAQ from "../components/FAQ";
-import Community from "../components/Community";
+import Hero from "../components/homePage/Hero";
+import Details from "../components/homePage/Details";
+import Benefits from "../components/homePage/Benefits";
+import FAQ from "../components/homePage/FAQ";
+import Community from "../components/homePage/Community";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -12,13 +12,13 @@ const Home = () => {
         <div className="Home">
             <Navbar />
             <Hero />
-            <About />
+            <Details />
             <Benefits />
             <FAQ />
             <Community />
             <Footer />
         </div>
     );
-};
+}
 
 export default Home;

@@ -1,8 +1,8 @@
 import React from "react";
 import "./FAQ.css"
-import person_1 from "../assets/peep-68.png"
-import person_2 from "../assets/peep-32.png"
-import Vector from "../assets/Vector.png"
+import person_1 from "./assets/peep-68.png"
+import person_2 from "./assets/peep-32.png"
+import Vector from "./assets/Vector.png"
 
 const FAQ = () => {
     return(

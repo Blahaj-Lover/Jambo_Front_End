@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
   background-color: #FFFFF3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @font-face {

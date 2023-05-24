@@ -1,12 +1,13 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
+import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 function About()  {
     return (
         <div className="About">
-            <Navbar />
-
+            {/* <Navbar /> */}
+            <Nav />
             <Footer />
         </div>
     );

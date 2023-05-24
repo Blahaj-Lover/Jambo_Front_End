@@ -1,9 +1,9 @@
 .footer {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     width: 1440px;
     padding-bottom: 38px;
     display: flex;
-    justify-content: center;
+    justify-content: cen ter;
     align-items: center;
 }
 

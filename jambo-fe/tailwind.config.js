@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      jakarta: ["Plus Jakarta Sans", "sans-serif"],
+      britanica: ["../public/britanica-extrabold.ttf"]
+    }
   },
   plugins: [],
 }

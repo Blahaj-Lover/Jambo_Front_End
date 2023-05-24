@@ -1,12 +1,14 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Nav from "../components/Nav";
+import Popular from "../components/explorePage/Popular";
     
 import Footer from "../components/Footer";
 
 function Explore() {
     return (
         <div className="Explore">
-            <Navbar />
+            {/* <Navbar /> */}
+            <Nav />
             
             <Footer />
         </div>

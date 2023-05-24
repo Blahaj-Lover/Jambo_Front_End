@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Nav from "../components/Nav";
 import Hero from "../components/homePage/Hero";
 import Details from "../components/homePage/Details";
 import Benefits from "../components/homePage/Benefits";
@@ -9,8 +9,8 @@ import Footer from "../components/Footer";
 
 const Home = () => {
     return (
-        <div className="Home">
-            <Navbar />
+        <div className="Home bg-[#FFFFF3]">
+            <Nav />
             <Hero />
             <Details />
             <Benefits />

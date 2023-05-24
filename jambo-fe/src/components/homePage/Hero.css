@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&family=Roboto&display=swap');
+
 .hero {
     width: 1440px;
     height: 900px;
@@ -54,6 +57,7 @@
     justify-content: center;
     gap: 35px;
 }
+
 
 .tagline_button_1 {
     background-color: #F0F0F0;

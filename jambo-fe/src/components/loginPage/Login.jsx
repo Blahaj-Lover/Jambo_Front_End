@@ -76,7 +76,7 @@ const Login = () => {
               type="sumbit"
               name=""
               id="SignIn"
-              className="bg-[#FDD400] w-full border border-black border-2 h-10 cursor-pointer text-black text-xl rounded-md font-medium"
+              className="bg-[#FDD400] w-full border-2 border-black  h-10 cursor-pointer text-black text-xl rounded-md font-medium"
             >
               SIGN IN
             </button>

@@ -1,0 +1,41 @@
+.Browse {
+    width: 1240px;
+    height: 205px;
+}
+
+.genre {
+    gap: 21px;
+}
+
+.genre_1:hover {
+    box-shadow: 10px 10px #000000;
+}
+
+.genre_2:hover {
+    box-shadow: 10px 10px #000000;
+}
+
+.genre_3:hover {
+    box-shadow: 10px 10px #000000;
+}
+
+.genre_4:hover {
+    box-shadow: 10px 10px #000000;
+}
+
+.genre_5:hover {
+    box-shadow: 10px 10px #000000;
+}
+
+.genre_6:hover {
+    box-shadow: 10px 10px #000000;
+}
+
+.genre_7:hover {
+    box-shadow: 10px 10px #000000;
+}
+
+.more:hover {
+    box-shadow: 10px 10px #000000;
+}
+

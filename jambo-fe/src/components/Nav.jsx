@@ -4,34 +4,34 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="p-5 shadow md:flex md:items-center md:justify-between">
+    <nav className="p-5 md:flex md:items-center md:justify-around">
       <div>
         <Link to="/">
           <span className="text-3xl font-bold cursor-pointer">Jambo</span>
         </Link>
       </div>
 
-      <ul className="md:flex md:items-center md:justify-center font-jakarta">
-        <li className="mx-4">
+      <ul className="md:flex md:items-center md:justify-center font-jakarta gap-10">
+        <li className="mx-4 menu_1">
           <a
             href="/"
-            className="text-xl hover:text-[#FDD400] duration-500 hover:underline hover:underline-offset-8"
+            className="item_1"
           >
             Home
           </a>
         </li>
-        <li className="mx-4">
+        <li className="mx-4 menu_2">
           <a
             href="/Explore"
-            className="text-xl hover:text-[#32CBFC] duration-500 hover:underline hover:underline-offset-8"
+            className="item_2"
           >
             Explore
           </a>
         </li>
-        <li className="mx-4">
+        <li className="mx-4 menu_3">
           <a
             href="/About"
-            className="text-xl hover:text-[#FFF402] duration-500 hover:underline hover:underline-offset-8"
+            className="item_3"
           >
             About
           </a>
@@ -40,13 +40,13 @@ const Nav = () => {
 
       <div className="md:flex gap-4">
         <Link to="/sign-in">
-          <button className="text-xl black outline-[black] bg-black text-[white] font-jakarta px-8 py-2.5 hover:bg-[#D0EA57] hover:text-black hover:font-semibold hover:outline outline outline  outline- rounded-md">
+          <button className="link_1">
             Sign in
           </button>
         </Link>
 
         <Link to="/sign-up">
-          <button className="text-xl outline text-black font-jakarta px-8 py-2.5 hover:bg-[#D0EA57] duration-500 rounded-md">
+          <button className="link_2">
             Sign up
           </button>
         </Link>

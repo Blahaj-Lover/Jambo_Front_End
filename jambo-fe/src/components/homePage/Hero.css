@@ -6,7 +6,6 @@
     height: 900px;
     margin: 0;
     padding: 0;
-    padding-top: 100px;
 }
 
 .tagline {
@@ -40,7 +39,6 @@
     font-size: 50px;
     font-weight: 400;
     line-height: 60px;
-    margin: 0;
 }
 
 .tagline_text text {

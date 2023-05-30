@@ -8,17 +8,21 @@ import Community from "../components/homePage/Community";
 import Footer from "../components/Footer";
 
 const Home = () => {
-    return (
-        <div className="Home bg-[#FFFFF3]">
-            <Nav />
-            <Hero />
-            <Details />
-            <Benefits />
-            <FAQ />
-            <Community />
-            <Footer />
-        </div>
-    );
-}
+  return (
+    <div>
+      <div className="w-[1440px] h-[136px]">
+        <Nav />
+      </div>
+      <div className="flex flex-col items-center">
+        <Hero />
+        <Details />
+        <Benefits />
+        <FAQ />
+        <Community />
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
 export default Home;

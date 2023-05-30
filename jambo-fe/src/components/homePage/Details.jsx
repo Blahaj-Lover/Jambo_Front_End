@@ -14,13 +14,13 @@ const About = () => {
                         <br/> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br/> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br/> commodo consequat.
                     </text>
 
-                    <button> Learn More <i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button className="outline"> Learn More <i class="fa-solid fa-magnifying-glass"></i></button>
 
-                    <div className="others">
+                    <div className="others pt-10">
 
                         <div className="others_1">
                             <div className="box_1"></div>
-                            <div className="text_1">
+                            <div className="text_1 flex flex-col gap-3">
                                 <h1> 100+ </h1>
                                 <text> Lorem ipsum</text>
                             </div>
@@ -29,7 +29,7 @@ const About = () => {
 
                         <div className="others_2">
                             <div className="box_2"></div>
-                                <div className="text_2">
+                                <div className="text_2 flex flex-col gap-3">
                                     <h1> 100+ </h1>
                                     <text> Lorem ipsum</text>
                                 </div>
@@ -37,7 +37,7 @@ const About = () => {
 
                         <div className="others_3">
                             <div className="box_3"></div>
-                                <div className="text_3">
+                                <div className="text_3 flex flex-col gap-3">
                                     <h1> 100+ </h1>
                                     <text> Lorem ipsum</text>
                                 </div>

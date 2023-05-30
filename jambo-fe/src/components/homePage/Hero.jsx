@@ -15,8 +15,8 @@ const Hero = () => {
                     </div>
 
                     <div className="tagline_button">
-                        <button className="tagline_button_1"> Know More About Us <i class="fa-solid fa-magnifying-glass"></i></button>
-                        <button className="tagline_button_2"> Get Started  <i class="fa-solid fa-circle-play"></i></button>
+                        <button className="tagline_button_1 outline"> Know More About Us <i class="fa-solid fa-magnifying-glass"></i></button>
+                        <button className="tagline_button_2 outline"> Get Started  <i class="fa-solid fa-circle-play"></i></button>
                     </div>
                 </div>
 

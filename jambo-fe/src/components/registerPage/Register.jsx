@@ -76,8 +76,8 @@ const Register = () => {
               type="sumbit"
               name=""
               id="SignUp"
-              className="bg-[#FFFFF3] F w-full border border-black border-2 h-10 cursor-pointer text-black text-xl rounded-md font-medium"
-            >
+                className="bg-[#FFFFF3] F w-full border-2 border-black h-10 cursor-pointer text-black text-xl rounded-md font-medium"
+                >
               SIGN UP
             </button>
 

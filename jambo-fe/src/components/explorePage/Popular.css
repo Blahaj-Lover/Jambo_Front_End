@@ -1,0 +1,20 @@
+.Popular {
+    width: 1240px;
+    height: 538px;
+}
+
+.header {
+    align-items: center;
+}
+
+.button_1 {
+    width: 121.98px;
+    height: 36.08px;
+    background: #FDD400;
+    border: 1.5px solid #000000;
+    border-radius: 5px;
+}
+
+.header h1 {
+    font-family: britanica;
+}

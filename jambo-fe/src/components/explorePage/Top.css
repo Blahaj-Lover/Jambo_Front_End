@@ -1,4 +1,13 @@
 .Top {
     width: 1241px;
-    height: 564.65px;
+    height: 450px;
+}
+
+.foto{
+    box-shadow: 10px 10px;
+    border-radius: 10px;
+}
+
+.title{
+    font-family: britanica;
 }

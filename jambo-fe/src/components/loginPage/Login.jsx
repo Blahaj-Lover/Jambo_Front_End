@@ -8,11 +8,17 @@ const Login = () => {
   return (
     <div className="bg-[#FFFFF3]">
       <div className="flex flex-row justify-between items-center h-screen">
-        <img
+        <div className="flex-col self-start pt-[50px]">
+          <button type="button" id="backBtn" className="bg-[#FDD400] w-[50px] border-2 border-black text-black text-center rounded-lg font-medium">
+            Back
+          </button>
+          <img
           src={signkiri}
           alt="signKiri"
-          className="w-72 flex justify-items-start self-end"
+          className="w-72 pt-[297px]"
         />
+        </div>
+        
         <div
           id="form"
           className="border border-black rounded-md bg-[#FFD7C3] w-96 px-16 pt-16 hover:drop-shadow-red"

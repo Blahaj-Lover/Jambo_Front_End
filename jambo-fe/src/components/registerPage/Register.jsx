@@ -18,36 +18,72 @@ const Register = () => {
           className="border border-black rounded-md bg-[#D0EA57] w-96 px-16 pt-16"
         >
           <form action="">
-            <h2 className="flex flex-row text-black-700 text-3xl font-semibold pb-10 justify-center">
-              {" "}
-              Sign Up{" "}
-            </h2>
-            <div id="username" className="flex flex-row">
+            <div className="flex pb-10">
+              <button type="button" id="backBtn" className="bg-[#FFFFF3] w-[50px] border-2 border-black text-black text-center rounded-lg font-medium place-self-center">
+                Back
+              </button>
+              <div className="">
+                <h2 className="flex text-black-700 text-3xl font-semibold pl-[29px]">
+                  Sign Up
+                </h2>
+              </div>
+            </div>
+            {/* <div id="username" className="flex flex-row">
               <div className="pb-4">
                 <label for="username" className="">
                   {" "}
-                  Username{" "}
+                  Username <br></br>{" "}
                 </label>
                 <input
                   type="text"
                   name=""
                   id="username"
-                  className="h-8 w-full  border-black border-b-2 text-sm pl-2 bg-[#D0EA57] shadow-sm"
+                  className="h-8 w-[250px] border-black border-b-2 text-sm pl-2 bg-[#D0EA57] shadow-sm"
+                />
+              </div>
+            </div> */}
+
+            <div id="email" className="flex flex-row">
+              <div className="pb-4">
+                <label for="email" className="">
+                  {" "}
+                  Email <br></br>{" "}
+                </label>
+                <input
+                  type="text"
+                  name=""
+                  id="email"
+                  className="h-8 w-[250px]  border-black border-b-2 text-sm pl-2 bg-[#D0EA57] shadow-sm"
                 />
               </div>
             </div>
 
             <div id="password" className="flex flex-row">
               <div className="">
-                <label for="password" className="mr-1">
+                <label for="password" className="">
                   {" "}
-                  Password{" "}
+                  Password <br></br>{" "}
                 </label>
                 <input
                   type="password"
                   name=""
                   id="password"
-                  className="h-8 w-full border-black border-b-2 text-sm pl-2 bg-[#D0EA57] shadow-sm"
+                  className="h-8 w-[250px] border-black border-b-2 text-sm pl-2 bg-[#D0EA57] shadow-sm"
+                />
+              </div>
+            </div>
+
+            <div id="confirmpassword" className="flex flex-row pt-3">
+              <div className="">
+                <label for="confirmpassword" className="">
+                  {" "}
+                  Confirm Password <br></br>{" "}
+                </label>
+                <input
+                  type="password"
+                  name=""
+                  id="confirmpassword"
+                  className="h-8 w-[250px] border-black border-b-2 text-sm pl-2 bg-[#D0EA57] shadow-sm"
                 />
               </div>
             </div>

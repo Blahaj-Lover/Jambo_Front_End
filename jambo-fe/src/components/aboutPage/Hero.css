@@ -1,0 +1,12 @@
+.Hero {
+    width: 1140px;
+    height: 465px;
+}
+
+.title {
+    font-family: britanica;
+}
+
+.Button_1:hover {
+    box-shadow: 5px 5px #000000;
+}

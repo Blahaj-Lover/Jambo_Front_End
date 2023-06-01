@@ -1,13 +1,25 @@
 import React from "react";
-// import Navbar from "../components/Navbar";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import Hero from "../components/aboutPage/Hero";
+import Statistic from "../components/aboutPage/Statistic";
+import Game from "../components/aboutPage/AboutGame";
+import System from "../components/aboutPage/System";
+import Download from "../components/aboutPage/Download";
 
 function About()  {
     return (
         <div className="About">
-            {/* <Navbar /> */}
-            <Nav />
+            <div className="w-[1440px] h-[136px]">
+                <Nav />
+            </div>
+            <div className="flex flex-col items-center gap-[50px]">
+                <Hero />
+                <Statistic />
+                <Game />
+                <System />
+                <Download />
+            </div>
             <Footer />
         </div>
     );

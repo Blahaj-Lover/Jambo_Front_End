@@ -12,21 +12,21 @@ const Top = () => {
                     <div className="flex flex-col">
                         <img className="foto" src={top2} alt="top2" />
                         <div className="absolute flex place-items-star p-[20px] text-center">
-                            <h1 className="bg-[#D0EA57] py-[5px] px-[15px] rounded-full outline text-3xl font-bold text-black font-jakarta">#2</h1>
+                            <h1 className="bg-[#D0EA57] py-[5px] px-[15px] rounded-full outline text-[24px] font-bold text-black font-jakarta">#2</h1>
                         </div>
                     </div>
 
                     <div className="flex flex-col">
                         <img className="foto" src={top1} alt="top1" />
                         <div className="absolute flex place-items-star p-[20px] text-center">
-                            <h1 className="bg-[#FFD7C3] py-[5px] px-[15px] rounded-full outline text-3xl font-bold text-black font-jakarta">#1</h1>
+                            <h1 className="bg-[#FFD7C3] py-[5px] px-[15px] rounded-full outline text-[24px] font-bold text-black font-jakarta">#1</h1>
                         </div>
                     </div>
 
                     <div className="flex flex-col">
                         <img className="foto" src={top3} alt="top3" />
                         <div className="absolute flex place-items-star p-[20px] text-center">
-                            <h1 className="bg-[#32CBFC] py-[5px] px-[15px] rounded-full outline text-3xl font-bold text-black font-jakarta">#3</h1>
+                            <h1 className="bg-[#32CBFC] py-[5px] px-[15px] rounded-full outline text-[24px] font-bold text-black font-jakarta">#3</h1>
                         </div>
                     </div>
 

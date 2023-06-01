@@ -14,7 +14,7 @@ const Explore = () => {
       <div className="w-[1440px] h-[136px]">
         <Nav />
       </div>
-      <div className="flex flex-col gap-20 items-center">
+      <div className="flex flex-col gap-[50px] items-center">
         <Popular />
         <Browse />
         <Featured />

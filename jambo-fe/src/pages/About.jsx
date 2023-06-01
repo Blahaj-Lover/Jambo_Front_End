@@ -19,8 +19,8 @@ function About()  {
                 <Game />
                 <System />
                 <Download />
+                <Footer />
             </div>
-            <Footer />
         </div>
     );
 };

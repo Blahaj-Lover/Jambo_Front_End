@@ -1,32 +1,30 @@
 import React from "react";
 import "./Register.css";
+import Nav2 from "../Nav2";
 import signkiri from "./assetSign/signKiri.png";
 import signkanan from "./assetSign/signKanan.png";
 import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
-    <div className="bg-[#FFFFF3]">
-      <div className="flex flex-row justify-between items-center h-screen">
+    <div className="Register">
+      <Nav2 />
+      <div className="flex justify-between items-center h-screen">
         <img
           src={signkiri}
           alt="signKiri"
-          className="w-72 flex justify-items-start self-end"
+          className="flex justify-items-start self-end"
         />
+
         <div
           id="form"
-          className="border border-black rounded-md bg-[#D0EA57] w-96 px-16 pt-16"
+          className="box outline rounded-md bg-[#D0EA57] w-96 px-16 pt-16 "
         >
           <form action="">
-            <div className="flex pb-10">
-              <button type="button" id="backBtn" className="bg-[#FFFFF3] w-[50px] border-2 border-black text-black text-center rounded-lg font-medium place-self-center">
-                Back
-              </button>
-              <div className="">
-                <h2 className="flex text-black-700 text-3xl font-semibold pl-[29px]">
+            <div className="flex pb-10 justify-center">
+                <h2 className="flex text-black-700 text-3xl font-semibold">
                   Sign Up
                 </h2>
-              </div>
             </div>
             {/* <div id="username" className="flex flex-row">
               <div className="pb-4">
@@ -129,7 +127,7 @@ const Register = () => {
         <img
           src={signkanan}
           alt="signKanan"
-          className="w-72 flex justify-items-end self-start"
+          className="flex self-start pt-[20px]"
         />
       </div>
     </div>

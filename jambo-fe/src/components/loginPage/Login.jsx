@@ -1,27 +1,24 @@
 import React from "react";
 import "./Login.css";
+import Nav2 from "../Nav2";
 import signkiri from "./assetSign/signKiri.png";
 import signkanan from "./assetSign/signKanan.png";
 import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div className="bg-[#FFFFF3]">
+    <div className="Login">
+      <Nav2 />
       <div className="flex flex-row justify-between items-center h-screen">
-        <div className="flex-col self-start pt-[50px]">
-          <button type="button" id="backBtn" className="bg-[#FDD400] w-[50px] border-2 border-black text-black text-center rounded-lg font-medium">
-            Back
-          </button>
-          <img
+        <img
           src={signkiri}
           alt="signKiri"
-          className="w-72 pt-[297px]"
+          className="flex justify-items-start self-end"
         />
-        </div>
         
         <div
           id="form"
-          className="border border-black rounded-md bg-[#FFD7C3] w-96 px-16 pt-16 hover:drop-shadow-red"
+          className="box outline rounded-md bg-[#FFD7C3] w-96 px-16 pt-16 hover:drop-shadow-red"
         >
           <form action="">
             <h2 className="flex flex-row text-black-700 text-3xl font-semibold pb-10 justify-center">
@@ -99,7 +96,7 @@ const Login = () => {
         <img
           src={signkanan}
           alt="signKanan"
-          className="w-72 flex justify-items-end self-start"
+          className="flex self-start pt-[20px]"
         />
       </div>
     </div>

@@ -13,7 +13,7 @@ const More = () => {
       <div className="Featured flex flex-col gap-[30px]">
         <div className="header flex justify-between">
           <h1 className="text-4xl font-bold"> More Games </h1>
-          <button className="button_1 flex text-[18px] font-semibold items-center justify-center gap-[5px]">
+          <button className="button_1 flex text-[20px] font-semibold items-center justify-center gap-[5px]">
             {" "}
             View All <Arrow />{" "}
           </button>
@@ -62,7 +62,7 @@ const More = () => {
                     </div>
                   </div>
 
-                  <button className="flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
+                  <button className="button_2 flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
                     {" "}
                     <Arrow />{" "}
                   </button>
@@ -113,7 +113,7 @@ const More = () => {
                     </div>
                   </div>
 
-                  <button className="flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
+                  <button className="button_2 flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
                     {" "}
                     <Arrow />{" "}
                   </button>
@@ -164,7 +164,7 @@ const More = () => {
                     </div>
                   </div>
 
-                  <button className="flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
+                  <button className="button_2 flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
                     {" "}
                     <Arrow />{" "}
                   </button>
@@ -215,7 +215,7 @@ const More = () => {
                     </div>
                   </div>
 
-                  <button className="flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
+                  <button className="button_2 flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
                     {" "}
                     <Arrow />{" "}
                   </button>
@@ -268,7 +268,7 @@ const More = () => {
                     </div>
                   </div>
 
-                  <button className="flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
+                  <button className="button_2 flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
                     {" "}
                     <Arrow />{" "}
                   </button>
@@ -319,7 +319,7 @@ const More = () => {
                     </div>
                   </div>
 
-                  <button className="flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
+                  <button className="button_2 flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
                     {" "}
                     <Arrow />{" "}
                   </button>
@@ -370,7 +370,7 @@ const More = () => {
                     </div>
                   </div>
 
-                  <button className="flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
+                  <button className="button_2 flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
                     {" "}
                     <Arrow />{" "}
                   </button>
@@ -421,7 +421,7 @@ const More = () => {
                     </div>
                   </div>
 
-                  <button className="flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
+                  <button className="button_2 flex w-[57px] h-[45px] bg-[#FDD400] rounded text-center outline justify-center items-center">
                     {" "}
                     <Arrow />{" "}
                   </button>

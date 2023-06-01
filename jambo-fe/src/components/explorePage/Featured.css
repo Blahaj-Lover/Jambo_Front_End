@@ -6,3 +6,11 @@
 .name {
     font-family: britanica;
 }
+
+.button_1:hover {
+    box-shadow: 5px 5px #000000;
+}
+
+.button_2:hover {
+    box-shadow: 5px 5px #000000;
+}

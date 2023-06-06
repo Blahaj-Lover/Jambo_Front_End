@@ -5,7 +5,45 @@ import signkiri from "./assetSign/signKiri.png";
 import signkanan from "./assetSign/signKanan.png";
 import { Link } from "react-router-dom";
 
+//backend {
+  import axios from "axios";
+  import { useState } from "react";
+  import { useNavigate } from "react-router-dom";
+//backend }
+
 const Login = () => {
+
+//backend {
+  const [login, setLogin] = useState({
+    UsUsername:"",
+    UsPassword:"",
+  });
+  const [error,setError] = useState(false)
+
+  var loginSuccess = false;
+
+  const navigate = useNavigate()
+
+  const handleChangeLogin = (e) => {
+      setLogin((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  };
+
+  console.log(login);
+
+  const handleClickLogin = async (e) => {
+      e.preventDefault()
+      try {
+        const res = await axios.post("http://localhost:8800/login", login)
+        loginSuccess = res.data;
+        console.log(loginSuccess)
+        if(loginSuccess != false) navigate("/")
+      } catch (err) {
+        console.log(err)
+        setError(true)
+      }
+  }
+  //backend }
+
   return (
     <div className="Login">
       <Nav2 />
@@ -33,9 +71,10 @@ const Login = () => {
                 </label>
                 <input
                   type="text"
-                  name=""
+                  name="UsUsername"
                   id="username"
                   className="h-8 w-full border-black border-b-2 text-sm pl-2 bg-[#FFD7C3] shadow-sm"
+                  onChange={handleChangeLogin}
                 />
               </div>
             </div>
@@ -48,9 +87,10 @@ const Login = () => {
                 </label>
                 <input
                   type="password"
-                  name=""
+                  name="UsPassword"
                   id="password"
                   className="h-8 w-full border-black border-b-2 text-sm pl-2 bg-[#FFD7C3] shadow-sm"
+                  onChange={handleChangeLogin}
                 />
               </div>
             </div>
@@ -80,6 +120,7 @@ const Login = () => {
               name=""
               id="SignIn"
               className="bg-[#FDD400] w-full border-2 border-black  h-10 cursor-pointer text-black text-xl rounded-md font-medium"
+              onClick={handleClickLogin}
             >
               SIGN IN
             </button>

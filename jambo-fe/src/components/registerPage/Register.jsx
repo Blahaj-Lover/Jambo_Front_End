@@ -5,7 +5,59 @@ import signkiri from "./assetSign/signKiri.png";
 import signkanan from "./assetSign/signKanan.png";
 import { Link } from "react-router-dom";
 
+//backend {
+  import axios from "axios";
+  import { useState } from "react";
+  import { useNavigate } from "react-router-dom";
+//backend }
+
+var conPass = null;
+
 const Register = () => {
+
+  //backend {
+  const [user, setUser] = useState({
+    UsUsername:"",
+    UsEmail:"test",
+    UsPassword:"",
+    UsSex:"test",
+    UsCountry:"",
+    UsPp:"",
+  });
+  const [error,setError] = useState(false)
+
+  const navigate = useNavigate()
+
+  const handleChangeRegister = (e) => {
+      setUser((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+      console.log(conPass)
+  };
+
+  const handleChangeConPass = (e) => {
+    conPass = e.target.value;
+    console.log(conPass)
+  }
+
+  console.log(user)
+
+  const handleClickRegister = async (e) => {
+      e.preventDefault()
+      try {
+        if(conPass != user.UsPassword){
+          console.log("no")
+          return
+        }
+        console.log("yes")
+        // await axios.post("http://localhost:8800/user", user)
+        // console.log("success")
+        // navigate("/")
+      } catch (err) {
+          console.log(err)
+          setError(true)
+      }
+  }
+  //backend }
+
   return (
     <div className="Register">
       <Nav2 />
@@ -49,9 +101,10 @@ const Register = () => {
                 </label>
                 <input
                   type="text"
-                  name=""
+                  name="UsUsername"
                   id="email"
                   className="h-8 w-[250px]  border-black border-b-2 text-sm pl-2 bg-[#D0EA57] shadow-sm"
+                  onChange={handleChangeRegister}
                 />
               </div>
             </div>
@@ -64,9 +117,10 @@ const Register = () => {
                 </label>
                 <input
                   type="password"
-                  name=""
+                  name="UsPassword"
                   id="password"
                   className="h-8 w-[250px] border-black border-b-2 text-sm pl-2 bg-[#D0EA57] shadow-sm"
+                  onChange={handleChangeRegister}
                 />
               </div>
             </div>
@@ -82,6 +136,7 @@ const Register = () => {
                   name=""
                   id="confirmpassword"
                   className="h-8 w-[250px] border-black border-b-2 text-sm pl-2 bg-[#D0EA57] shadow-sm"
+                  onChange={handleChangeConPass}
                 />
               </div>
             </div>
@@ -111,6 +166,7 @@ const Register = () => {
               name=""
               id="SignUp"
                 className="bg-[#FFFFF3] F w-full border-2 border-black h-10 cursor-pointer text-black text-xl rounded-md font-medium"
+                onClick={handleClickRegister}
                 >
               SIGN UP
             </button>

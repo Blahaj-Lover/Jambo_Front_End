@@ -6,6 +6,10 @@ import Statistic from "../components/aboutPage/Statistic";
 import Game from "../components/aboutPage/AboutGame";
 import System from "../components/aboutPage/System";
 import Download from "../components/aboutPage/Download";
+import Upload from "../components/uploadPage/UploadTitle";
+import UploadDesc from "../components/uploadPage/UploadDesc";
+import GameGenre from "../components/uploadPage/GameGenre";
+import Crowdfund from "../components/uploadPage/OpenCrowdfund";
 
 function About()  {
     return (
@@ -19,8 +23,12 @@ function About()  {
                 <Game />
                 <System />
                 <Download />
-                <Footer />
+                <Upload />
+                <GameGenre />
+                <UploadDesc />
+                <Crowdfund />
             </div>
+            <Footer />
         </div>
     );
 };

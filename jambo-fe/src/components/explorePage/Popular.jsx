@@ -17,10 +17,6 @@ const Popular = () => {
         <div class=" image flex gap-10">
           <div class="relative w-[900px]">
             <img src={popular_1} alt="Popular 1" className="cursor-pointer"></img>
-            <div class="">
-                <h3 class="text-xl text-white font-bold"> Spirit Well </h3>
-                <p class="mt-2 text-sm text-white"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            </div>
           </div>
 
           <div className="flex flex-col gap-10 cursor-pointer">

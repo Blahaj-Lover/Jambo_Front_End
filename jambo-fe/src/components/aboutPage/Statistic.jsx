@@ -3,39 +3,44 @@ import "./Statistic.css";
 import Contributor from "./assets/icon/Contributor";
 import Total from "./assets/icon/Total";
 import Target from "./assets/icon/Target";
+import { Link } from "react-router-dom";
 
 
 const Statistic = () => {
     return (
         <div className="Statistic">
-            <div className="flex flex-col gap-[51px]">
+            <div className="flex flex-col gap-[50px]">
                 <div className="flex gap-[50px]">
-                    <div className="flex flex-col gap-[12px] bg-[#FDD400] rounded outline pt-[14px] pb-[14px] pl-[20px] pr-[20px] w-[137px] h-[144px]">
+                    <div className="statBox flex flex-col gap-[12px] bg-[#FDD400] outline pt-[14px] pb-[14px] pl-[20px] pr-[20px] w-[140px] h-[144px] justify-center font-jakarta">
                         <Contributor className="outline rounded"/>
-                        <text className="text-[15px] opacity-50"> Contributor </text>
-                        <text className="text-[15px]"> 100 </text>
+                        <text className="text-[14px] text-[#808080]"> Contributor <text className="text-black font-semibold text-[16px]"> 100 People </text></text>
                     </div>
 
-                    <div className="flex flex-col bg-[#FDD400] gap-[12px] rounded outline pt-[14px] pb-[14px] pl-[20px] pr-[20px] w-[137px] h-[144px]">
+                    <div className="statBox flex flex-col gap-[12px] bg-[#FDD400] outline pt-[14px] pb-[14px] pl-[20px] pr-[20px] w-[140px] h-[144px] justify-center font-jakarta">
                         <Total className="outline rounded"/>
-                        <text  className="text-[15px] opacity-50"> Raised Total </text>
-                        <text className="text-[15px]"> Rp.34 Million </text>
+                        <text className="text-[14px] text-[#808080]"> Raised Total <text className="text-black font-semibold text-[15px]"> IDR 34 Million </text></text>
+                    </div>
+                    <div className="statBox flex flex-col gap-[12px] bg-[#FDD400] outline pt-[14px] pb-[14px] pl-[20px] pr-[20px] w-[140px] h-[144px] justify-center font-jakarta">
+                        <Total className="outline rounded"/>
+                        <text className="text-[14px] text-[#808080]"> Target <br></br><text className="text-black font-semibold text-[15px]"> IDR 70 Million </text></text>
                     </div>
 
-                    <div className="flex flex-col bg-[#FDD400] gap-[12px] rounded outline pt-[14px] pb-[14px] pl-[20px] pr-[20px] w-[137px] h-[144px]">
-                        <Target className="outline rounded"/>
-                        <text className="text-[15px] opacity-50"> Target </text>
-                        <text className="text-[15px]"> Rp.70 Million </text>
-                    </div>
+                    
+
                 </div>
 
                 <div className="flex flex-col gap-[16px]">
-                    <text className="text-[32px] font-bold"> Rp. 34.485.000 <text className="opacity-50 text-[22px]"> Of 70 Million Rupiah</text></text>
+                    <text className="text-[32px] font-bold"> $1.000 <text className="opacity-50 text-[22px]"> Of $2.000</text></text>
 
                     <div className="w-[1132px] h-[15px] bg-[#E3E3E3] outline rounded">
-                        <div className="w-[520px] h-[15px] bg-[#FDD400] outline rounded"></div>
+                        <div className="w-[566px] h-[15px] bg-[#FDD400] outline rounded"></div>
                     </div>
                 </div>
+
+                <Link to="/Payment">
+                    <button className="britanica text-[25px] outline outline-4 w-[200px] h-[54px] rounded justify-center items-center hover:bg-[#FDD400]"> Donate </button>
+                </Link>
+
             </div>
         </div>
     );

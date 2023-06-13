@@ -13,12 +13,12 @@ const Hero = () => {
             <div className="flex">
                 <div className="flex gap-[80px]">
                     <div className="flex flex-col gap-[17px] justify-center">
-                        <text className="title text-[40px]"> SPIRIT WELL</text>
-                        <text className="text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br></br> do eiusmod tempor incididunt ut labore et dolore magna <br></br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br></br> ullamco laboris nisi ut aliquip ex ea commodo consequat.</text>
+                        <text className="britanica text-[40px]"> SPIRIT WELL</text>
+                        <text className="text-[18px] font-jakarta">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br></br> do eiusmod tempor incididunt ut labore et dolore magna <br></br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br></br> ullamco laboris nisi ut aliquip ex ea commodo consequat.</text>
 
-                        <text> DEVELOP BY </text>
+                        <text className="font-jakarta"> DEVELOP BY </text>
 
-                        <div className="flex gap-[10px]">
+                        <div className="flex gap-[10px] font-jakarta">
                             <img src={developer} alt="icon"></img>
                             <text> Davidchen </text>
                         </div>

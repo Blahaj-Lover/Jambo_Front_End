@@ -22,7 +22,7 @@ const Register = () => {
     UsPassword:"",
     UsSex:"test",
     UsCountry:"",
-    UsPp:"",
+    UsPp:"../img/profile/pp_default",
   });
   const [error,setError] = useState(false)
 
@@ -48,9 +48,9 @@ const Register = () => {
           return
         }
         console.log("yes")
-        // await axios.post("http://localhost:8800/user", user)
-        // console.log("success")
-        // navigate("/")
+        await axios.post("http://localhost:8800/user", user)
+        console.log("success")
+        navigate("/")
       } catch (err) {
           console.log(err)
           setError(true)

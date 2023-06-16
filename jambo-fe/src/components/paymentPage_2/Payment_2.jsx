@@ -7,7 +7,7 @@ const Payment_2 = () => {
   return (
     <div className="Payment_2">
       <div className="flex flex-col gap-[30px] items-center outline rounded-lg p-10">
-        <Checklist className="bg-[#08C39E]" />
+        <Checklist className="bg-[#08C39E] rounded-full" />
         <h1 className="text-[32px] font-jakarta font-bold text-center">
           {" "}
           Thank You For Your <br></br> Donation🎉{" "}

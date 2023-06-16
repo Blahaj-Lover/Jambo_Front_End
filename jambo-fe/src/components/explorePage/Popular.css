@@ -18,3 +18,15 @@
 .header h1 {
     font-family: britanica;
 }
+
+.searchBox:focus {
+    box-shadow: 5px 5px #000000;
+}
+
+.searchButton:hover {
+    box-shadow: 5px 5px #000000;
+}
+
+.bannerTitle {
+    font-family: britanica;
+}

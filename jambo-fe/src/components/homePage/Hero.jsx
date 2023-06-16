@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import people from "./assets/People Illustration.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
     return (
@@ -16,7 +17,9 @@ const Hero = () => {
 
                     <div className="tagline_button">
                         <button className="tagline_button_1 outline"> Know More About Us <i class="fa-solid fa-magnifying-glass"></i></button>
-                        <button className="tagline_button_2 outline"> Get Started  <i class="fa-solid fa-circle-play"></i></button>
+                        <Link to="/Explore">
+                            <button className="tagline_button_2 outline"> Get Started  <i class="fa-solid fa-circle-play"></i></button>
+                        </Link>
                     </div>
                 </div>
 

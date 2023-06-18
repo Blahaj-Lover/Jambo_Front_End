@@ -65,11 +65,11 @@ const Popular = () => {
         </div>
 
         <div class=" image flex gap-10">
-          <div class="relative w-[900px] h-full">
+          <div class="relative w-[900px] h-[460.48px]">
             <img
               src={popular_1}
               alt="Popular 1"
-              className="brightness-75"
+              className="absolute bottom-1 w-full rounded-xl brightness-75"
             ></img>
 
             <div className="absolute bottom-1 w-full h-full rounded-xl bg-black bg-opacity-40">
@@ -108,7 +108,7 @@ const Popular = () => {
             <div className="relative w-[347px] h-[133px]">
               <img src={popular_2} alt="Popular 2"></img>
 
-              <div className="absolute bottom-1 w-full h-full rounded-xl opacity-0 bg-black hover:opacity-100 hover:bg-opacity-40">
+              <div className="absolute bottom-2 top-0 w-full rounded-xl opacity-0 bg-black hover:opacity-100 hover:bg-opacity-40">
                 <div className="absolute flex flex-col bottom-0 left-0 gap-[20px] pb-[20px] px-5">
                   
                   <div className="flex flex-col gap-[2px]">
@@ -142,7 +142,7 @@ const Popular = () => {
             <div className="relative w-[347px] h-[133px]">
               <img src={popular_3} alt="Popular 2"></img>
 
-              <div className="absolute bottom-1 w-full h-full rounded-xl opacity-0 bg-black hover:opacity-100 hover:bg-opacity-40">
+              <div className="absolute bottom-2 top-0 w-full rounded-xl opacity-0 bg-black hover:opacity-100 hover:bg-opacity-40">
                 <div className="absolute flex flex-col bottom-0 left-0 gap-[20px] pb-[20px] px-5">
                   
                   <div className="flex flex-col gap-[2px]">
@@ -176,7 +176,7 @@ const Popular = () => {
            <div className="relative w-[347px] h-[133px]">
               <img src={popular_4} alt="Popular 4"></img>
 
-              <div className="absolute bottom-1 w-full h-full rounded-xl opacity-0 bg-black hover:opacity-100 hover:bg-opacity-40">
+              <div className="absolute bottom-2 top-0 w-full rounded-xl opacity-0 bg-black hover:opacity-100 hover:bg-opacity-40">
                 <div className="absolute flex flex-col bottom-0 left-0 gap-[20px] pb-[20px] px-5">
                   
                   <div className="flex flex-col gap-[2px]">

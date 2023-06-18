@@ -12,7 +12,7 @@ const FAQ = () => {
                 <img src={Vector} alt="QnA Icon"></img>
             </div>
 
-            <div className="flex gap-[50px]">
+            <div className="flex gap-[25px]">
                 <div className="flex justify-center items-center gap-[25px] outline p-7 rounded-lg">
                     <text className="faqNumber text-[40px] bg-[#FFD7C3] w-[60px] h-[60px] text-center outline rounded-lg"> 01 </text>
 
@@ -44,7 +44,7 @@ const FAQ = () => {
                 </div>
             </div>
 
-            <div className="flex gap-[50px]">
+            <div className="flex gap-[25px]">
                 <div className="flex justify-center items-center gap-[25px] outline p-7 rounded-lg">
                     <text className="faqNumber text-[40px] bg-[#FDD400] w-[60px] h-[60px] text-center outline rounded-lg"> 03 </text>
 

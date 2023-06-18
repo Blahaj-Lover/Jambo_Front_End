@@ -27,17 +27,17 @@ const Footer = () => {
                         <div className="wrapper">
                             <div className="icon facebook">
                                 <span><i class="fa-brands fa-instagram"></i></span>
-                                <div className="tooltip"> Instagram </div>
+                                <div className="tooltip"> @Jambo </div>
                             </div>
 
                             <div className="icon twitter">
                                 <span><i class="fa-brands fa-twitter"></i></span>
-                                <div className="tooltip"> Twitter </div>
+                                <div className="tooltip"> @Jambo </div>
                             </div>
 
                             <div className="icon youtube">
                                 <span><i class="fa-brands fa-youtube"></i></span>
-                                <div className="tooltip"> Youtube </div>
+                                <div className="tooltip"> Jambo Official </div>
                             </div>
                         </div>
                     </div>

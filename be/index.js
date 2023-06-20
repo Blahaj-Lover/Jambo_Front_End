@@ -63,6 +63,25 @@ app.post("/user", (req,res)=>{
     })
 })
 
+app.get("/game", (req,res)=>{
+    const q = "SELECT * FROM msgame WHERE GaTag = (?)"
+    
+    const tag = req.query.tag
+
+    db.query(q, tag, (err,data)=>{
+        if(err) return res.json(err)
+        return res.json(data)
+    })
+})
+
+// app.get("/dev", (req,res)=>{
+//     db.query("SELECT UsUsername FROM msuser WHERE UsID = (?)", d.GaDev, (err,data) => {
+//         if(err) throw err
+//         console.log(data[0].UsUsername)
+//         return res.json(data);
+//     })
+// })
+
 app.listen(8800, ()=>{
     console.log('server is running')
 })

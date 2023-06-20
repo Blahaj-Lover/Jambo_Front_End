@@ -75,7 +75,7 @@ const Login = () => {
               </div>
             </div>
 
-            <Link to="/">
+            <Link to="/Explore">
               <button
                 type="sumbit"
                 name=""

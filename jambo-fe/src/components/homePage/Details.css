@@ -5,25 +5,6 @@
     padding: 0;
 }
 
-.featureTitle {
+.title {
     font-family: britanica;
-}
-
-.contents {
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-    justify-content: center;
-    align-items: center;
-}
-
-.details h1 {
-    font-family: britanica;
-    font-size: 50px;
-    line-height: 0px;
-}
-
-.details text {
-    font-family: 'Plus Jakarta Sans';
-    font-size: 18px;
 }

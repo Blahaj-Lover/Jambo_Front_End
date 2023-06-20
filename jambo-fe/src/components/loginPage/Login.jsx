@@ -75,14 +75,17 @@ const Login = () => {
               </div>
             </div>
 
-            <button
-              type="sumbit"
-              name=""
-              id="SignIn"
-              className="bg-[#FDD400] w-full border-2 border-black  h-10 cursor-pointer text-black text-xl rounded-md font-medium"
-            >
-              SIGN IN
-            </button>
+            <Link to="/">
+              <button
+                type="sumbit"
+                name=""
+                id="SignIn"
+                className="bg-[#FDD400] w-full border-2 border-black  h-10 cursor-pointer text-black text-xl rounded-md font-medium"
+              >
+                SIGN IN
+              </button>
+            </Link>
+            
             <div className="flex justify-center text-xs my-2 pt-16 self-end">
                 <p className="">
                 Don't have an account?

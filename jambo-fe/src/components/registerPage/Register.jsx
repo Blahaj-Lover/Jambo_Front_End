@@ -26,7 +26,7 @@ const Register = () => {
                   Sign Up
                 </h2>
             </div>
-            {/* <div id="username" className="flex flex-row">
+            <div id="username" className="flex flex-row">
               <div className="pb-4">
                 <label for="username" className="">
                   {" "}
@@ -39,7 +39,7 @@ const Register = () => {
                   className="h-8 w-[250px] border-black border-b-2 text-sm pl-2 bg-[#D0EA57] shadow-sm"
                 />
               </div>
-            </div> */}
+            </div>
 
             <div id="email" className="flex flex-row">
               <div className="pb-4">

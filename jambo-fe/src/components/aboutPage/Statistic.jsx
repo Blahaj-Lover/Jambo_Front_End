@@ -20,8 +20,9 @@ const Statistic = () => {
                         <Total className="outline rounded"/>
                         <text className="text-[14px] text-[#808080]"> Raised Total <text className="text-black font-semibold text-[15px]"> IDR 34 Million </text></text>
                     </div>
+
                     <div className="statBox flex flex-col gap-[12px] bg-[#FDD400] outline pt-[14px] pb-[14px] pl-[20px] pr-[20px] w-[140px] h-[144px] justify-center font-jakarta">
-                        <Total className="outline rounded"/>
+                        <Target className="outline rounded"/>
                         <text className="text-[14px] text-[#808080]"> Target <br></br><text className="text-black font-semibold text-[15px]"> IDR 70 Million </text></text>
                     </div>
 
@@ -38,7 +39,9 @@ const Statistic = () => {
                 </div>
 
                 <Link to="/Payment">
-                    <button className="britanica text-[25px] outline outline-4 w-[200px] h-[54px] rounded justify-center items-center hover:bg-[#FDD400]"> Donate </button>
+                    <button className="button britanica text-[25px] outline outline-4 w-[200px] h-[54px] rounded justify-center items-center hover:bg-[#FDD400]">
+                        Donate
+                    </button>
                 </Link>
 
             </div>

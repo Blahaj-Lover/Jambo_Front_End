@@ -65,7 +65,7 @@ const Popular = () => {
         </div>
 
         <div class=" image flex gap-10">
-          <div class="relative w-[900px] h-[460.48px]">
+          <div class="relative w-[900px] h-[460.48px] cursor-pointer">
             <img
               src={popular_1}
               alt="Popular 1"

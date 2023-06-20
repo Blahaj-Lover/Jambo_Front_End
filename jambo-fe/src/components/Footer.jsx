@@ -13,9 +13,9 @@ const Footer = () => {
                     {/* column 2 */}
                     <div className="middle">
                         <div className="foot_navbar">
-                            <li className="menu_1"> <a href=""> Home </a></li>
-                            <li className="menu_2"> <a href=""> Explore </a></li>
-                            <li className="menu_3"> <a href=""> About </a></li>
+                            <li className="menu_1"> <a href="/"> Home </a></li>
+                            <li className="menu_2"> <a href="/Explore"> Explore </a></li>
+                            <li className="menu_3"> <a href="/About"> About </a></li>
                         </div>
 
                         <text> @Copyright Jambo Company. All rights reserved. </text>

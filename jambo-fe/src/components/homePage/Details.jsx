@@ -2,7 +2,7 @@ import React from "react";
 import "./Details.css";
 import picture from "./assets/Discovering Jambo.png";
 
-const About = () => {
+const About = React.forwardRef((props, ref) => {
     return (
         <div className="About">
             <div className="contents">
@@ -13,8 +13,6 @@ const About = () => {
                     <text> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                         <br/> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br/> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br/> commodo consequat.
                     </text>
-
-                    <button className="outline"> Learn More <i class="fa-solid fa-magnifying-glass"></i></button>
 
                     <div className="others pt-10">
 
@@ -48,6 +46,6 @@ const About = () => {
             </div>
         </div>
     );
-};
+});
 
 export default About;

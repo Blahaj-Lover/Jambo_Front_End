@@ -7,6 +7,7 @@ import popular_4 from "./assets/Popular Banner (4).png";
 import Windows from "./assets/icon/Windows";
 import Android from "./assets/icon/Android";
 import Genre2 from "./assets/icon/Genre2";
+import { Link } from "react-router-dom";
 
 const Popular = () => {
   return (
@@ -65,44 +66,46 @@ const Popular = () => {
         </div>
 
         <div class=" image flex gap-10">
-          <div class="relative w-[900px] h-[460.48px] cursor-pointer">
-            <img
-              src={popular_1}
-              alt="Popular 1"
-              className="absolute bottom-1 w-full rounded-xl brightness-75"
-            ></img>
+          <Link to="/spirit-well">
+            <div class="relative w-[855px] h-[480px] cursor-pointer">
+              <img
+                src={popular_1}
+                alt="Popular 1"
+                className="absolute bottom-1 w-full rounded-xl brightness-75 h-[480px]"
+              ></img>
 
-            <div className="absolute bottom-1 w-full h-full rounded-xl bg-black bg-opacity-40">
-              <div class="absolute flex flex-col bottom-0 left-0 right-0 px-10 gap-[20px] pb-[40px]">
-                <h1 class="bannerTitle text-[35px] text-white font-bold">
-                  SPIRIT WELL
-                </h1>
-                <p className="font-jakarta text-white text-[14px]">
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor <br></br> incididunt ut labore et dolore magna
-                  aliqua.{" "}
-                </p>
-                <div className="flex gap-[20px] items-center">
-                  <div className="flex bg-[#FDD400] w-[74px] h-[37px] font-jakarta items-center justify-center font-semibold text-[15px] rounded">
-                    FREE
-                  </div>
-                  <div className="flex gap-[8px] bg-[#FDD400] items-center justify-center rounded w-[60px] h-[37px]">
-                    <Windows />
-                    <Android />
-                  </div>
-                  <div className="flex gap-[10px]">
-                    <Genre2 />
-                    <text className="text-white font-jakarta text-[16px]">
-                      {" "}
-                      Action, Adventure, Puzzle{" "}
-                    </text>
+              <div className="absolute bottom-1 w-full h-full rounded-xl bg-black bg-opacity-40">
+                <div class="absolute flex flex-col bottom-0 left-0 right-0 px-10 gap-[20px] pb-[40px]">
+                  <h1 class="bannerTitle text-[35px] text-white font-bold">
+                    SPIRIT WELL
+                  </h1>
+                  <p className="font-jakarta text-white text-[14px]">
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor <br></br> incididunt ut labore et dolore magna
+                    aliqua.{" "}
+                  </p>
+                  <div className="flex gap-[20px] items-center">
+                    <div className="flex bg-[#FDD400] w-[74px] h-[37px] font-jakarta items-center justify-center font-semibold text-[15px] rounded">
+                      FREE
+                    </div>
+                    <div className="flex gap-[8px] bg-[#FDD400] items-center justify-center rounded w-[60px] h-[37px]">
+                      <Windows />
+                      <Android />
+                    </div>
+                    <div className="flex gap-[10px]">
+                      <Genre2 />
+                      <text className="text-white font-jakarta text-[16px]">
+                        {" "}
+                        Action, Adventure, Puzzle{" "}
+                      </text>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-          </div>
+            </div>
+          </Link>
 
           <div className="flex flex-col gap-10 cursor-pointer">
             <div className="relative w-[347px] h-[133px]">

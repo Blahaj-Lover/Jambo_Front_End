@@ -27,7 +27,7 @@ const Payment_2 = () => {
           </div>
         </div>
 
-        <Link to="/About">
+        <Link to="/spirit-weII">
           <button className="Back w-[398px] h-[45.35px] outline font-jakarta font-extrabold text-[16px] rounded-lg">
             {" "}
             Back{" "}

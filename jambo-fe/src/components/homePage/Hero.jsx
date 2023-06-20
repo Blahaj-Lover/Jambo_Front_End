@@ -24,12 +24,12 @@ const Hero = () => {
                     </div>
 
                     <div className="tagline_button">
-                        <button className="button flex bg-[#F0F0F0] outline w-[262px] h-[48px] rounded-[10px] text-[20px] items-center justify-center gap-[5px]" onClick={scrollToDetails}>
+                        <button className="tag_button flex bg-[#F0F0F0] outline w-[262px] h-[48px] rounded-[10px] text-[20px] items-center justify-center gap-[5px]" onClick={scrollToDetails}>
                             Know More About Us
                             <SearchIcon />
                         </button>
                         <Link to="/Explore">
-                            <button className="button flex bg-[#CDEE25] outline w-[176px] h-[48px] rounded-[10px] text-[20px] items-center justify-center gap-[5px]"> Get Started  <i class="fa-solid fa-circle-play"></i></button>
+                            <button className="tag_button flex bg-[#CDEE25] outline w-[176px] h-[48px] rounded-[10px] text-[20px] items-center justify-center gap-[5px]"> Get Started  <i class="fa-solid fa-circle-play"></i></button>
                         </Link>
                     </div>
                 </div>

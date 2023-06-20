@@ -13,7 +13,7 @@ const SuccessPage = () => {
           Congratulation <br></br> Your Game Has Been Published🎉{" "}
         </h1>
 
-        <Link to="/About">
+        <Link to="/Necken">
           <button className="viewGame w-[398px] h-[45.35px] outline font-jakarta font-extrabold text-[16px] rounded-lg bg-[#FDD400]">
             {" "}
             View Game{" "}

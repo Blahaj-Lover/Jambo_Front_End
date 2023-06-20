@@ -14,22 +14,22 @@ const Platform = () => {
                 <h1 className="text-2xl"> Game Platform </h1>
                 <h2 className="text-base opacity-50"> *Which platform your game can be played </h2>
                 <div className="flex py-[20px] gap-[15px]">
-                    <button className="flex justify-center items-center w-[231px] outline rounded" onClick={()=>setShow(true)}>
+                    <button className="flex justify-center items-center w-[231px] outline rounded focus:bg-[#FDD400] hover:bg-[#FDD400]" onClick={()=>setShow(true)}>
                         <Windows />
                         <h2 className="p-[10px] font-jakarta font-bold"> Windows </h2>
                     </button>
 
-                    <button className="flex justify-center items-center w-[231px] outline rounded" onClick={()=>setShow(true)}>
+                    <button className="flex justify-center items-center w-[231px] outline rounded focus:bg-[#FDD400] hover:bg-[#FDD400]" onClick={()=>setShow(true)}>
                         <Mac />
                         <h2 className="p-[10px] font-jakarta font-bold"> MacOS </h2>
                     </button>
 
-                    <button className="flex justify-center items-center w-[231px] outline rounded" onClick={()=>setShow(true)}>
+                    <button className="flex justify-center items-center w-[231px] outline rounded focus:bg-[#FDD400] hover:bg-[#FDD400]" onClick={()=>setShow(true)}>
                         <Linux />
                         <h2 className="p-[10px] font-jakarta font-bold"> Linux </h2>
                     </button>
 
-                    <button className="flex justify-center items-center w-[231px] outline rounded" onClick={()=>setShow(false)}>
+                    <button className="flex justify-center items-center w-[231px] outline rounded focus:bg-[#FDD400] hover:bg-[#FDD400]" onClick={()=>setShow(false)}>
                         <Web />
                         <h2 className="p-[10px] font-jakarta font-bold"> Web Based </h2>
                     </button>

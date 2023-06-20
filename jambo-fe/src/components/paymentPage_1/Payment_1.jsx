@@ -56,7 +56,7 @@ const Payment_1 = () => {
             </button>
           </Link>
 
-          <Link to="/About">
+          <Link to="/spirit-well">
             <button className="Back w-[398px] h-[45.35px] outline font-jakarta font-extrabold text-[16px] rounded-lg">
               {" "}
               Back{" "}

@@ -11,9 +11,9 @@ import Horror from "./assets/icon/Horror";
 const GameGenre = () => {
     return(
         <div className="GameGenre flex flex-col">
-            <h1 className="text-xl pb-[10px]">Game Genre</h1>
+            <h1 className="text-xl pb-[15px]">Game Genre</h1>
             
-            <div className="genre flex justify-between cursor-pointer">
+            <div className="gameGenreOption flex justify-between cursor-pointer">
                 <div className="genre_box flex outline w-[123px] h-[53px] rounded justify-center items-center gap-[10px] hover:bg-[#FDD400]">
                     <Action />
                     <div className="font-jakarta font-bold text-center"> Action </div>

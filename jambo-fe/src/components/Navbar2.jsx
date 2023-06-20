@@ -1,8 +1,8 @@
 import React from "react";
 import "./Navbar2.css";
 import { Link } from "react-router-dom";
-import Upload from "./icon/Upload";
 import Profile from "../components/icon/Profile";
+import UploadPage from "../pages/Upload";
 
 function Navbar2() {
     return (
@@ -34,10 +34,12 @@ function Navbar2() {
 
             <div className="flex gap-[24px]">
 
-                <div className="button flex gap-[10px] bg-[#FDD400] w-[194px] h-[44px] rounded outline">
-                    <Upload />
-                    <button className="font-jakarta text-[18px] font-semibold"> Upload Game </button>
-                </div>
+                <Link to="UploadPage">
+                    <div className="button flex gap-[10px] bg-[#FDD400] w-[194px] h-[44px] rounded outline">
+                        <UploadPage />
+                        <button className="font-jakarta text-[18px] font-semibold"> Upload Game </button>
+                    </div>
+                </Link>
 
                 <div className="flex gap-[10px] items-center">
                     <div className="flex items-center justify-center outline rounded-full w-[43px] h-[43px]">

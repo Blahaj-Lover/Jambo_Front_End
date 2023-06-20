@@ -7,6 +7,10 @@ import FAQ from "../components/homePage/FAQ";
 import Community from "../components/homePage/Community";
 import Footer from "../components/Footer";
 
+import Navbar2 from "../components/Navbar2";
+
+
+
 const Home = () => {
   return (
     <div>

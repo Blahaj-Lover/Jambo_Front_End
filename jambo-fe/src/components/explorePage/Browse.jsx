@@ -17,7 +17,7 @@ const Browse = () => {
             <div className="flex cursor-pointer gap-[21px]">
                 <button className="genre flex flex-col outline w-40 h-28 rounded justify-center items-center hover:bg-[#FDD400] gap-[10px] focus:bg-[#FDD400]">
                     <Action />
-                    <div className="font-jakarta font-bold text-center"> Puzzle </div>
+                    <div className="font-jakarta font-bold text-center"> Action </div>
                 </button>
 
                 <button className="genre flex flex-col outline w-40 h-28 rounded justify-center items-center hover:bg-[#FDD400] gap-[10px] focus:bg-[#FDD400]">

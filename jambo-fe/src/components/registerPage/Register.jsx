@@ -106,14 +106,16 @@ const Register = () => {
               </div>
             </div>
 
-            <button
-              type="sumbit"
-              name=""
-              id="SignUp"
-                className="bg-[#FFFFF3] F w-full border-2 border-black h-10 cursor-pointer text-black text-xl rounded-md font-medium"
-                >
-              SIGN UP
-            </button>
+            <Link to="/Explore">
+              <button
+                type="sumbit"
+                name=""
+                id="SignUp"
+                  className="bg-[#FFFFF3] F w-full border-2 border-black h-10 cursor-pointer text-black text-xl rounded-md font-medium"
+                  >
+                SIGN UP
+              </button>
+            </Link>
 
             <div className="flex justify-center text-xs my-2 pt-16 self-end">
                 <p className="">

@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../components/Nav";
+import Navbar2 from "../components/Navbar2";
 import Popular from "../components/explorePage/Popular";
 import Browse from "../components/explorePage/Browse";
 import Featured from "../components/explorePage/Featured";
@@ -12,7 +12,7 @@ const Explore = () => {
   return (
     <div className="">
       <div className="w-[1440px] h-[136px]">
-        <Nav />
+        <Navbar2 />
       </div>
       <div className="flex flex-col gap-[50px] items-center">
         <Popular />

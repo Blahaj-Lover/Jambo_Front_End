@@ -13,7 +13,7 @@ const Statistic = () => {
                 <div className="flex gap-[50px]">
                     <div className="statBox flex flex-col gap-[12px] bg-[#FDD400] outline pt-[14px] pb-[14px] pl-[20px] pr-[20px] w-[140px] h-[144px] justify-center font-jakarta">
                         <Contributor className="outline rounded"/>
-                        <text className="text-[14px] text-[#808080]"> Contributor <text className="text-black font-semibold text-[16px]"> 100 People </text></text>
+                        <text className="text-[14px] text-[#808080]"> Contributor <text className="text-black font-semibold text-[16px]"> 0 People </text></text>
                     </div>
 
                     <div className="statBox flex flex-col gap-[12px] bg-[#FDD400] outline pt-[14px] pb-[14px] pl-[20px] pr-[20px] w-[140px] h-[144px] justify-center font-jakarta">

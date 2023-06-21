@@ -12,7 +12,7 @@ import More from "./assets/icon/More";
 const Browse = () => {
     return (
         <div className="Browse flex flex-col gap-10">
-            <h1 className="britanica text-[40px]"> Browse Categories </h1>
+            <h1 className="text-[40px]"> Browse Categories </h1>
 
             <div className="genre flex cursor-pointer">
                 <div className="genre_1 flex flex-col outline w-40 h-28 rounded justify-center items-center gap-[15px] hover:bg-[#FDD400]">

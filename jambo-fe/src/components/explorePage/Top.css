@@ -1,17 +1,13 @@
 .Top {
     width: 1241px;
-    height: 600px;
+    height: 450px;
 }
 
-.topDev{
+.foto{
     box-shadow: 10px 10px;
     border-radius: 10px;
 }
 
 .title{
-    font-family: britanica;
-}
-
-.devCart{
     font-family: britanica;
 }

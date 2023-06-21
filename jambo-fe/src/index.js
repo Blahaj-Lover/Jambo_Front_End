@@ -8,8 +8,6 @@ import Explore from './pages/Explore';
 import About from './pages/About';
 import Sign_in from './pages/Sign_in';
 import Sign_up from './pages/Sign_up';
-import Crowdfunding_1 from './pages/Crowdfunding_1';
-import Crowdfunding_2 from './pages/Crowdfunding_2';
 
 import {
   createBrowserRouter,
@@ -41,16 +39,6 @@ const router = createBrowserRouter([
   {
     path: "sign-up",
     element: <Sign_up />,
-  },
-
-  {
-    path: "payment",
-    element: <Crowdfunding_1 />
-  },
-
-  {
-    path: "Success",
-    element: <Crowdfunding_2 />
   },
 
 ]);

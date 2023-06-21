@@ -19,7 +19,7 @@ const UploadDesc = () => {
         >
           <input
             type="file"
-            accept="image/*"
+            accept=""
             className="inputFieldAPK"
             hidden
             onChange={({ target: { files } }) => {

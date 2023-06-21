@@ -9,7 +9,7 @@ const Download = () => {
             <div className="box bg-[#FFD7C3] w-[1125px] h-[179px] outline rounded">
 
                 <div className="britanica flex flex-col gap-[13px] pt-[27px] pb-[27px]">
-                    <h1 className="text-[35px] font-bold text-center"> Download Spirit Well Now </h1>
+                    <h1 className="text-[35px] font-bold text-center"> Download Necken Now </h1>
 
                     <div className="flex gap-[13px] justify-center">
 

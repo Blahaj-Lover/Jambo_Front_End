@@ -1,0 +1,13 @@
+.GameGenre {
+    width: 1140px;
+    height: 50px;
+}
+
+.GameGenre h1 {
+    font-family: britanica;
+}
+/* 
+.genre{
+    box-shadow: 10px 10px;
+    border-radius: 10px;
+} */

@@ -10,10 +10,10 @@ import Genre from "./assets/icon/Genre";
 const More = () => {
   return (
     <div className="More">
-      <div className="Featured flex flex-col gap-[30px]">
+      <div className="flex flex-col gap-[30px]">
         <div className="header flex justify-between">
           <h1 className="text-4xl font-bold"> More Games </h1>
-          <button className="button_1 flex text-[20px] font-semibold items-center justify-center gap-[5px]">
+          <button className="button_1 flex text-[20px] font-semibold items-center justify-center gap-[5px] font-jakarta">
             {" "}
             View All <Arrow />{" "}
           </button>
@@ -22,7 +22,7 @@ const More = () => {
         <div className="flex gap-[17px]">
           <div className="flex flex-col gap-[17px]">
             <div className="flex gap-[17px]">
-              <div className="flex flex-col gap-[12px] outline w-[296px] rounded">
+              <div className="banner flex flex-col gap-[12px] outline w-[296px] rounded-md">
                 <img
                   src={game_banner}
                   alt="banner"
@@ -33,7 +33,7 @@ const More = () => {
                     <text className="name text-[20px]"> SPIRITWELL </text>
 
                     <div className="flex gap-[15px]">
-                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded">
+                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded font-jakarta">
                         {" "}
                         Free to Play{" "}
                       </text>
@@ -46,7 +46,7 @@ const More = () => {
 
                     <div className="flex gap-[10px]">
                       <Genre />
-                      <text className="text-[14px]">
+                      <text className="text-[13px] font-jakarta">
                         {" "}
                         Action, Adventure, Puzzle{" "}
                       </text>
@@ -58,7 +58,10 @@ const More = () => {
                         alt="icon"
                         className="w-[15px] h-[15px]"
                       ></img>
-                      <text className="text-[14px]"> Davidchen </text>
+                      <text className="text-[14px] font-jakarta">
+                        {" "}
+                        Davidchen{" "}
+                      </text>
                     </div>
                   </div>
 
@@ -73,7 +76,7 @@ const More = () => {
 
           <div className="flex flex-col gap-[17px]">
             <div className="flex gap-[17px]">
-              <div className="flex flex-col gap-[12px] outline w-[296px] rounded">
+              <div className="banner flex flex-col gap-[12px] outline w-[296px] rounded-md">
                 <img
                   src={game_banner}
                   alt="banner"
@@ -84,7 +87,7 @@ const More = () => {
                     <text className="name text-[20px]"> SPIRITWELL </text>
 
                     <div className="flex gap-[15px]">
-                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded">
+                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded font-jakarta">
                         {" "}
                         Free to Play{" "}
                       </text>
@@ -97,7 +100,7 @@ const More = () => {
 
                     <div className="flex gap-[10px]">
                       <Genre />
-                      <text className="text-[14px]">
+                      <text className="text-[13px] font-jakarta">
                         {" "}
                         Action, Adventure, Puzzle{" "}
                       </text>
@@ -109,7 +112,10 @@ const More = () => {
                         alt="icon"
                         className="w-[15px] h-[15px]"
                       ></img>
-                      <text className="text-[14px]"> Davidchen </text>
+                      <text className="text-[14px] font-jakarta">
+                        {" "}
+                        Davidchen{" "}
+                      </text>
                     </div>
                   </div>
 
@@ -124,7 +130,7 @@ const More = () => {
 
           <div className="flex flex-col gap-[17px]">
             <div className="flex gap-[17px]">
-              <div className="flex flex-col gap-[12px] outline w-[296px] rounded">
+              <div className="banner flex flex-col gap-[12px] outline w-[296px] rounded-md">
                 <img
                   src={game_banner}
                   alt="banner"
@@ -135,7 +141,7 @@ const More = () => {
                     <text className="name text-[20px]"> SPIRITWELL </text>
 
                     <div className="flex gap-[15px]">
-                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded">
+                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded font-jakarta">
                         {" "}
                         Free to Play{" "}
                       </text>
@@ -148,7 +154,7 @@ const More = () => {
 
                     <div className="flex gap-[10px]">
                       <Genre />
-                      <text className="text-[14px]">
+                      <text className="text-[13px] font-jakarta">
                         {" "}
                         Action, Adventure, Puzzle{" "}
                       </text>
@@ -160,7 +166,10 @@ const More = () => {
                         alt="icon"
                         className="w-[15px] h-[15px]"
                       ></img>
-                      <text className="text-[14px]"> Davidchen </text>
+                      <text className="text-[14px] font-jakarta">
+                        {" "}
+                        Davidchen{" "}
+                      </text>
                     </div>
                   </div>
 
@@ -175,7 +184,7 @@ const More = () => {
 
           <div className="flex flex-col gap-[17px]">
             <div className="flex gap-[17px]">
-              <div className="flex flex-col gap-[12px] outline w-[296px] rounded">
+              <div className="banner flex flex-col gap-[12px] outline w-[296px] rounded-md">
                 <img
                   src={game_banner}
                   alt="banner"
@@ -186,7 +195,7 @@ const More = () => {
                     <text className="name text-[20px]"> SPIRITWELL </text>
 
                     <div className="flex gap-[15px]">
-                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded">
+                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded font-jakarta">
                         {" "}
                         Free to Play{" "}
                       </text>
@@ -199,7 +208,7 @@ const More = () => {
 
                     <div className="flex gap-[10px]">
                       <Genre />
-                      <text className="text-[14px]">
+                      <text className="text-[13px] font-jakarta">
                         {" "}
                         Action, Adventure, Puzzle{" "}
                       </text>
@@ -211,7 +220,10 @@ const More = () => {
                         alt="icon"
                         className="w-[15px] h-[15px]"
                       ></img>
-                      <text className="text-[14px]"> Davidchen </text>
+                      <text className="text-[14px] font-jakarta">
+                        {" "}
+                        Davidchen{" "}
+                      </text>
                     </div>
                   </div>
 
@@ -228,7 +240,7 @@ const More = () => {
         <div className="flex gap-[17px]">
           <div className="flex flex-col gap-[17px]">
             <div className="flex gap-[17px]">
-              <div className="flex flex-col gap-[12px] outline w-[296px] rounded">
+              <div className="banner flex flex-col gap-[12px] outline w-[296px] rounded-md">
                 <img
                   src={game_banner}
                   alt="banner"
@@ -239,7 +251,7 @@ const More = () => {
                     <text className="name text-[20px]"> SPIRITWELL </text>
 
                     <div className="flex gap-[15px]">
-                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded">
+                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded font-jakarta">
                         {" "}
                         Free to Play{" "}
                       </text>
@@ -252,7 +264,7 @@ const More = () => {
 
                     <div className="flex gap-[10px]">
                       <Genre />
-                      <text className="text-[14px]">
+                      <text className="text-[13px] font-jakarta">
                         {" "}
                         Action, Adventure, Puzzle{" "}
                       </text>
@@ -264,7 +276,10 @@ const More = () => {
                         alt="icon"
                         className="w-[15px] h-[15px]"
                       ></img>
-                      <text className="text-[14px]"> Davidchen </text>
+                      <text className="text-[14px] font-jakarta">
+                        {" "}
+                        Davidchen{" "}
+                      </text>
                     </div>
                   </div>
 
@@ -279,7 +294,7 @@ const More = () => {
 
           <div className="flex flex-col gap-[17px]">
             <div className="flex gap-[17px]">
-              <div className="flex flex-col gap-[12px] outline w-[296px] rounded">
+              <div className="banner flex flex-col gap-[12px] outline w-[296px] rounded-md">
                 <img
                   src={game_banner}
                   alt="banner"
@@ -290,7 +305,7 @@ const More = () => {
                     <text className="name text-[20px]"> SPIRITWELL </text>
 
                     <div className="flex gap-[15px]">
-                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded">
+                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded font-jakarta">
                         {" "}
                         Free to Play{" "}
                       </text>
@@ -303,7 +318,7 @@ const More = () => {
 
                     <div className="flex gap-[10px]">
                       <Genre />
-                      <text className="text-[14px]">
+                      <text className="text-[13px] font-jakarta">
                         {" "}
                         Action, Adventure, Puzzle{" "}
                       </text>
@@ -315,7 +330,10 @@ const More = () => {
                         alt="icon"
                         className="w-[15px] h-[15px]"
                       ></img>
-                      <text className="text-[14px]"> Davidchen </text>
+                      <text className="text-[14px] font-jakarta">
+                        {" "}
+                        Davidchen{" "}
+                      </text>
                     </div>
                   </div>
 
@@ -330,7 +348,7 @@ const More = () => {
 
           <div className="flex flex-col gap-[17px]">
             <div className="flex gap-[17px]">
-              <div className="flex flex-col gap-[12px] outline w-[296px] rounded">
+              <div className="banner flex flex-col gap-[12px] outline w-[296px] rounded-md">
                 <img
                   src={game_banner}
                   alt="banner"
@@ -341,7 +359,7 @@ const More = () => {
                     <text className="name text-[20px]"> SPIRITWELL </text>
 
                     <div className="flex gap-[15px]">
-                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded">
+                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded font-jakarta">
                         {" "}
                         Free to Play{" "}
                       </text>
@@ -354,7 +372,7 @@ const More = () => {
 
                     <div className="flex gap-[10px]">
                       <Genre />
-                      <text className="text-[14px]">
+                      <text className="text-[13px] font-jakarta">
                         {" "}
                         Action, Adventure, Puzzle{" "}
                       </text>
@@ -366,7 +384,10 @@ const More = () => {
                         alt="icon"
                         className="w-[15px] h-[15px]"
                       ></img>
-                      <text className="text-[14px]"> Davidchen </text>
+                      <text className="text-[14px] font-jakarta">
+                        {" "}
+                        Davidchen{" "}
+                      </text>
                     </div>
                   </div>
 
@@ -381,7 +402,7 @@ const More = () => {
 
           <div className="flex flex-col gap-[17px]">
             <div className="flex gap-[17px]">
-              <div className="flex flex-col gap-[12px] outline w-[296px] rounded">
+              <div className="banner flex flex-col gap-[12px] outline w-[296px] rounded-md">
                 <img
                   src={game_banner}
                   alt="banner"
@@ -392,7 +413,7 @@ const More = () => {
                     <text className="name text-[20px]"> SPIRITWELL </text>
 
                     <div className="flex gap-[15px]">
-                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded">
+                      <text className="bg-[#FDD400] outline pt-[5px] pb-[5px] pl-[8px] pr-[8px] rounded font-jakarta">
                         {" "}
                         Free to Play{" "}
                       </text>
@@ -405,7 +426,7 @@ const More = () => {
 
                     <div className="flex gap-[10px]">
                       <Genre />
-                      <text className="text-[14px]">
+                      <text className="text-[13px] font-jakarta">
                         {" "}
                         Action, Adventure, Puzzle{" "}
                       </text>
@@ -417,7 +438,10 @@ const More = () => {
                         alt="icon"
                         className="w-[15px] h-[15px]"
                       ></img>
-                      <text className="text-[14px]"> Davidchen </text>
+                      <text className="text-[14px] font-jakarta">
+                        {" "}
+                        Davidchen{" "}
+                      </text>
                     </div>
                   </div>
 

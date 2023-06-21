@@ -18,7 +18,7 @@ const Statistic = () => {
 
                     <div className="statBox flex flex-col gap-[12px] bg-[#FDD400] outline pt-[14px] pb-[14px] pl-[20px] pr-[20px] w-[140px] h-[144px] justify-center font-jakarta">
                         <Total className="outline rounded"/>
-                        <text className="text-[14px] text-[#808080]"> Raised Total <text className="text-black font-semibold text-[15px]"> <br></br>$1.000 </text></text>
+                        <text className="text-[14px] text-[#808080]"> Raised Total <text className="text-black font-semibold text-[15px]"> <br></br>$0 </text></text>
                     </div>
 
                     <div className="statBox flex flex-col gap-[12px] bg-[#FDD400] outline pt-[14px] pb-[14px] pl-[20px] pr-[20px] w-[140px] h-[144px] justify-center font-jakarta">
@@ -31,10 +31,10 @@ const Statistic = () => {
                 </div>
 
                 <div className="flex flex-col gap-[16px]">
-                    <text className="text-[32px] font-bold"> $1.000 <text className="opacity-50 text-[22px]"> Of $2.000</text></text>
+                    <text className="text-[32px] font-bold"> $0 <text className="opacity-50 text-[22px]"> Of $2.000</text></text>
 
                     <div className="w-[1132px] h-[15px] bg-[#E3E3E3] outline rounded">
-                        <div className="w-[566px] h-[15px] bg-[#FDD400] outline rounded"></div>
+                        <div className="w-[566px] h-[15px] bg-[transparent] rounded"></div>
                     </div>
                 </div>
 

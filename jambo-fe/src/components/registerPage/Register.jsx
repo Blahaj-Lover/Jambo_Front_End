@@ -18,7 +18,7 @@ const Register = () => {
   //backend {
   const [user, setUser] = useState({
     UsUsername:"",
-    UsEmail:"test",
+    UsEmail:"",
     UsPassword:"",
     UsSex:"test",
     UsCountry:"",
@@ -50,7 +50,7 @@ const Register = () => {
         console.log("yes")
         await axios.post("http://localhost:8800/user", user)
         console.log("success")
-        navigate("/")
+        navigate("/sign-in")
       } catch (err) {
           console.log(err)
           setError(true)
@@ -86,9 +86,10 @@ const Register = () => {
                 </label>
                 <input
                   type="text"
-                  name=""
+                  name="UsUsername"
                   id="username"
                   className="h-8 w-[250px] border-black border-b-2 text-sm pl-2 bg-[#D0EA57] shadow-sm"
+                  onChange={handleChangeRegister}
                 />
               </div>
             </div>
@@ -101,7 +102,7 @@ const Register = () => {
                 </label>
                 <input
                   type="text"
-                  name="UsUsername"
+                  name="UsEmail"
                   id="email"
                   className="h-8 w-[250px]  border-black border-b-2 text-sm pl-2 bg-[#D0EA57] shadow-sm"
                   onChange={handleChangeRegister}

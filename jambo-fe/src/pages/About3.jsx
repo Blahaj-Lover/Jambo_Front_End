@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../components/Nav";
+import LoginNav from "../components/LoginNav";
 import Footer from "../components/Footer";
 import Hero from "../components/aboutPage3/Hero";
 import Statistic from "../components/aboutPage3/Statistic";
@@ -11,7 +11,7 @@ function About2()  {
     return (
         <div className="About">
             <div className="w-[1440px] h-[136px]">
-                <Nav />
+                <LoginNav />
             </div>
             <div className="flex flex-col items-center gap-[50px] pb-[50px]">
                 <Hero />

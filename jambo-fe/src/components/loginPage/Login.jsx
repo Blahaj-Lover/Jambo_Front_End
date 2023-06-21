@@ -36,7 +36,7 @@ const Login = () => {
         const res = await axios.post("http://localhost:8800/login", login)
         loginSuccess = res.data;
         console.log(loginSuccess)
-        if(loginSuccess != false) navigate("/")
+        if(loginSuccess != false) navigate("/Explore")
       } catch (err) {
         console.log(err)
         setError(true)

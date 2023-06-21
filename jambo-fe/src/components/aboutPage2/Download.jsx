@@ -21,22 +21,6 @@ const Download = () => {
                             </button>
                         </div>
 
-                        <div className="boxes flex gap-[8px] bg-[#FDD400] w-[231px] h-[56px] outline rounded items-center justify-center cursor-pointer">
-                            <button className="flex gap-[8px]">
-                                <Apple />
-                                <text className="text-[14px] font-bold font-jakarta"> Download </text>
-                                <text className="text-[14px] font-jakarta"> (2GB) </text>
-                            </button>
-                        </div>
-
-                        <div className="boxes flex gap-[8px]">
-                            <button className="flex gap-[8px] bg-[#FDD400] w-[231px] h-[56px] outline rounded items-center justify-center cursor-pointer">
-                                <Linux />
-                                <text className="text-[14px] font-bold font-jakarta"> Download </text>
-                                <text className="text-[14px] font-jakarta"> (2GB) </text>
-                            </button>
-                        </div>
-
                     </div>
                 </div>
 

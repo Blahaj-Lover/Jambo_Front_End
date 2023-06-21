@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../components/Nav";
+import LoginNav from "../components/LoginNav";
 import Footer from "../components/Footer";
 import UploadTitle from "../components/uploadPage/UploadTitle";
 import UploadDesc from "../components/uploadPage/UploadDesc1";
@@ -14,7 +14,7 @@ function UploadPage()  {
     return (
         <div className="About">
             <div className="w-[1440px] h-[136px]">
-                <Nav />
+                <LoginNav />
             </div>
             <div className="flex flex-col items-center gap-[30px] pb-[50px]">
                 <UploadTitle />

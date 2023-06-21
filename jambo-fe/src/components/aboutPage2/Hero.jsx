@@ -20,7 +20,7 @@ const Hero = () => {
 
                         <div className="flex gap-[10px] font-jakarta">
                             <img src={developer} alt="icon"></img>
-                            <text> Joccish </text>
+                            <text> Eriyowww </text>
                         </div>
 
                         <button className="Button_1 rounded bg-[#FDD400] outline w-[150px] h-[40px] text-[20px]"> Play Now </button>

@@ -10,8 +10,6 @@ const System = () => {
 
                     <div className="flex gap-[50px]">
                         <text className="text-[20px] font-jakarta font-semibold"> WINDOWS </text>
-                        <text className="text-[20px] opacity-50 font-jakarta"> MACOS </text>
-                        <text className="text-[20px] opacity-50 font-jakarta"> LINUX </text>
                     </div>
 
                     <div className="flex gap-[146px]">

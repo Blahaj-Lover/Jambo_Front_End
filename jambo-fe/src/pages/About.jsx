@@ -6,10 +6,6 @@ import Statistic from "../components/aboutPage/Statistic";
 import Game from "../components/aboutPage/AboutGame";
 import System from "../components/aboutPage/System";
 import Download from "../components/aboutPage/Download";
-import Upload from "../components/uploadPage/UploadTitle";
-import UploadDesc from "../components/uploadPage/UploadDesc";
-import GameGenre from "../components/uploadPage/GameGenre";
-import Crowdfund from "../components/uploadPage/OpenCrowdfund";
 
 function About()  {
     return (
@@ -17,16 +13,12 @@ function About()  {
             <div className="w-[1440px] h-[136px]">
                 <Nav />
             </div>
-            <div className="flex flex-col items-center gap-[50px]">
+            <div className="flex flex-col items-center gap-[50px] pb-[50px]">
                 <Hero />
                 <Statistic />
                 <Game />
                 <System />
                 <Download />
-                <Upload />
-                <GameGenre />
-                <UploadDesc />
-                <Crowdfund />
             </div>
             <Footer />
         </div>

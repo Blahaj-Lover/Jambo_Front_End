@@ -11,49 +11,49 @@ import More from "./assets/icon/More";
 
 const Browse = () => {
     return (
-        <div className="Browse flex flex-col gap-10">
+        <div className="Browse flex flex-col gap-[30px]">
             <h1 className="britanica text-[40px]"> Browse Categories </h1>
 
-            <div className="genre flex cursor-pointer">
-                <div className="genre_1 flex flex-col outline w-40 h-28 rounded justify-center items-center gap-[15px] hover:bg-[#FDD400]">
+            <div className="flex cursor-pointer gap-[21px]">
+                <button className="genre flex flex-col outline w-40 h-28 rounded justify-center items-center hover:bg-[#FDD400] gap-[10px] focus:bg-[#FDD400]">
                     <Action />
                     <div className="font-jakarta font-bold text-center"> Action </div>
-                </div>
+                </button>
 
-                <div className="genre_2 flex flex-col outline w-40 h-28 rounded justify-center items-center gap-[15px] hover:bg-[#FDD400]">
+                <button className="genre flex flex-col outline w-40 h-28 rounded justify-center items-center hover:bg-[#FDD400] gap-[10px] focus:bg-[#FDD400]">
                     <Puzzle />
                     <div className="font-jakarta font-bold text-center"> Puzzle </div>
-                </div>
+                </button>
                 
-                <div className="genre_3 flex flex-col outline w-40 h-28 rounded justify-center items-center gap-[15px] hover:bg-[#FDD400]">
+                <button className="genre flex flex-col outline w-40 h-28 rounded justify-center items-center  hover:bg-[#FDD400] gap-[10px] focus:bg-[#FDD400]">
                     <Adventure />
                     <div className="font-jakarta font-bold text-center"> Adventure </div>
-                </div>
+                </button>
                 
-                <div className="genre_4 flex flex-col outline w-40 h-28 rounded justify-center items-center gap-[15px] hover:bg-[#FDD400]">
+                <button className="genre flex flex-col outline w-40 h-28 rounded justify-center items-center hover:bg-[#FDD400] gap-[10px] focus:bg-[#FDD400]">
                     <RPG />
                     <div className="font-jakarta font-bold  text-center"> RPG </div>
-                </div>
+                </button>
 
-                <div className="genre_5 flex flex-col outline w-40 h-28 rounded justify-center items-center gap-[15px] hover:bg-[#FDD400]">
+                <button className="genre flex flex-col outline w-40 h-28 rounded justify-center items-center hover:bg-[#FDD400] gap-[10px] focus:bg-[#FDD400]">
                     <Strategy />
                     <div className="font-jakarta font-bold text-center"> Strategy </div>
-                </div>
+                </button>
 
-                <div className="genre_6 flex flex-col outline w-40 h-28 rounded justify-center items-center gap-[15px] hover:bg-[#FDD400]">
+                <button className="genre flex flex-col outline w-40 h-28 rounded justify-center items-center hover:bg-[#FDD400] gap-[10px] focus:bg-[#FDD400]">
                     <Sports />
                     <div className="font-jakarta font-bold text-center"> Sports </div>
-                </div>
+                </button>
 
-                <div className="genre_7 flex flex-col outline w-40 h-28 rounded justify-center items-center gap-[15px] hover:bg-[#FDD400]">
+                <button className="genre flex flex-col outline w-40 h-28 rounded justify-center items-center hover:bg-[#FDD400] gap-[10px] focus:bg-[#FDD400]">
                     <Horror />
                     <div className="font-jakarta font-bold text-center"> Horror </div>
-                </div>
+                </button>
 
-                <div className="more flex flex-col outline w-40 h-28 rounded justify-center items-center gap-[15px] hover:bg-[#FDD400]">
+                <button className="genre flex flex-col outline w-40 h-28 rounded justify-center items-center hover:bg-[#FDD400] gap-[10px] focus:bg-[#FDD400]">
                     <More />
                     <div className="font-jakarta font-bold text-center"> More Genre </div>
-                </div>
+                </button>
             </div>
             
         </div>

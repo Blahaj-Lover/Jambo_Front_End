@@ -1,8 +1,12 @@
 .UploadTitle {
     width: 1140px;
-    height: 640px;
+    /* height: 640px; */
 }
 
 .UploadTitle h1 {
+    font-family: britanica;
+}
+
+.UploadTitle p{
     font-family: britanica;
 }

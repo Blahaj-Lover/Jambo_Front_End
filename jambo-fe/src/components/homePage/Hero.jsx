@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Hero.css";
 import people from "./assets/People Illustration.png";
+import { Link } from "react-router-dom";
+import SearchIcon from "./assets/icon/Search";
 
 const Hero = () => {
+
+    const detailsRef = useRef(null);
+
+    const scrollToDetails = () => {
+        detailsRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <div className="hero">
             <div className="tagline">
@@ -15,8 +24,13 @@ const Hero = () => {
                     </div>
 
                     <div className="tagline_button">
-                        <button className="tagline_button_1 outline"> Know More About Us <i class="fa-solid fa-magnifying-glass"></i></button>
-                        <button className="tagline_button_2 outline"> Get Started  <i class="fa-solid fa-circle-play"></i></button>
+                        <button className="tag_button flex bg-[#F0F0F0] outline w-[262px] h-[48px] rounded-[10px] text-[20px] items-center justify-center gap-[5px]" onClick={scrollToDetails}>
+                            Know More About Us
+                            <SearchIcon />
+                        </button>
+                        <Link to="/Explore">
+                            <button className="tag_button flex bg-[#CDEE25] outline w-[176px] h-[48px] rounded-[10px] text-[20px] items-center justify-center gap-[5px]"> Get Started  <i class="fa-solid fa-circle-play"></i></button>
+                        </Link>
                     </div>
                 </div>
 
@@ -35,6 +49,8 @@ const Hero = () => {
                     <text> Apart from the game jam feature, Jambo <br/> also provides features for developers to <br/> showcase the games they have made </text>
                 </div>
             </div>
+
+            <details ref={detailsRef} className="opacity-0"/>
         </div>
     );
 };

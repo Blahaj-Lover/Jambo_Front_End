@@ -5,14 +5,10 @@ import Footer from "../components/Footer";
 
 const Crowdfunding_2 = () => {
   return (
-    <div className="Crowdfunding_2">
-      <div className="w-[1440px] h-[136px]">
-        <Nav />
-      </div>
-      <div className="flex justify-center">
+    <div className="Crowdfunding_2 flex h-screen items-center">
+      <div className="">
         <Payment_2 />
       </div>
-      <Footer />
     </div>
   );
 };

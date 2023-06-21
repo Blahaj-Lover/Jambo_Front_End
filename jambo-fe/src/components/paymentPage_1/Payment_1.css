@@ -1,7 +1,3 @@
-.Payment_1 {
-    height: 570px;
-}
-
 .Confirm:hover {
     box-shadow: 5px 5px #000000;
 }
@@ -10,6 +6,7 @@
     box-shadow: 5px 5px #000000;
 }
 
-.methods_2.methods_2:active {
-    background-color: #FDD400;
+.paymentBox:focus {
+    box-shadow: 5px 5px #000000;
 }
+

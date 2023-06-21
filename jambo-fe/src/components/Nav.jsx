@@ -30,7 +30,7 @@ const Nav = () => {
         </li>
         <li className="mx-4 menu_3">
           <a
-            href="/About"
+            href=""
             className="item_3"
           >
             About

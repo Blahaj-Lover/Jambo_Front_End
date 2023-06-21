@@ -13,9 +13,9 @@ const Footer = () => {
                     {/* column 2 */}
                     <div className="middle">
                         <div className="foot_navbar">
-                            <li className="menu_1"> <a href=""> Home </a></li>
-                            <li className="menu_2"> <a href=""> Explore </a></li>
-                            <li className="menu_3"> <a href=""> About </a></li>
+                            <li className="menu_1"> <a href="/"> Home </a></li>
+                            <li className="menu_2"> <a href="/Explore"> Explore </a></li>
+                            <li className="menu_3"> <a href="/About"> About </a></li>
                         </div>
 
                         <text> @Copyright Jambo Company. All rights reserved. </text>
@@ -27,17 +27,17 @@ const Footer = () => {
                         <div className="wrapper">
                             <div className="icon facebook">
                                 <span><i class="fa-brands fa-instagram"></i></span>
-                                <div className="tooltip"> Instagram </div>
+                                <div className="tooltip"> @Jambo </div>
                             </div>
 
                             <div className="icon twitter">
                                 <span><i class="fa-brands fa-twitter"></i></span>
-                                <div className="tooltip"> Twitter </div>
+                                <div className="tooltip"> @Jambo </div>
                             </div>
 
                             <div className="icon youtube">
                                 <span><i class="fa-brands fa-youtube"></i></span>
-                                <div className="tooltip"> Youtube </div>
+                                <div className="tooltip"> Jambo Official </div>
                             </div>
                         </div>
                     </div>
